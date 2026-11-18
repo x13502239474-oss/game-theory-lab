@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from 'react';
 import { Link, useNavigate, useParams } from 'react-router-dom';
 import { LESSON_MAP, STAGE_MAP, ALL_LESSONS, prevLessonId, nextLessonId } from '../data/curriculum';
 import { useStore } from '../store/store';
-import { Prose } from '../lib/prose';
+import { Prose, inline } from '../lib/prose';
 import QuizBlock from '../components/QuizBlock';
 import { LAB_MAP } from '../labs';
 
@@ -103,7 +103,7 @@ export default function LessonPage() {
           {lesson.goals.map((g, i) => (
             <li key={i} className="flex gap-2 text-[12.5px] leading-relaxed text-ink-2">
               <span className="mt-[7px] h-px w-2.5 shrink-0 bg-copper" />
-              <span>{g}</span>
+              <span>{inline(g, `goal-${i}`)}</span>
             </li>
           ))}
         </ul>

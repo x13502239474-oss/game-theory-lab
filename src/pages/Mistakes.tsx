@@ -4,6 +4,7 @@ import { useStore } from '../store/store';
 import { getQuestion, LESSON_MAP, STAGES } from '../data/curriculum';
 import QuizBlock from '../components/QuizBlock';
 import { Empty } from '../components/ui';
+import { inline } from '../lib/prose';
 import { fmtShortDate } from '../lib/date';
 import type { Question } from '../data/types';
 
@@ -162,7 +163,7 @@ export default function Mistakes() {
               </div>
 
               <div className="px-4 py-3">
-                <p className="text-[13.5px] leading-[1.75] text-ink">{q.stem}</p>
+                <p className="text-[13.5px] leading-[1.75] text-ink">{inline(q.stem, `m-${q.id}`)}</p>
 
                 <div className="mt-2.5 flex items-center gap-2 text-[11.5px]">
                   <span className="text-muted">正确答案</span>

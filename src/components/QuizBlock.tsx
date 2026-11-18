@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import type { Question } from '../data/types';
 import { useStore } from '../store/store';
+import { inline } from '../lib/prose';
 
 function norm(s: string) {
   return s
@@ -121,7 +122,7 @@ export default function QuizBlock({ questions, title = '章节测试' }: { quest
               </div>
 
               <div className="px-4 pb-4 pt-3.5">
-                <p className="text-[14px] leading-[1.75] text-ink">{q.stem}</p>
+                <p className="text-[14px] leading-[1.75] text-ink">{inline(q.stem, `stem-${q.id}`)}</p>
 
                 {/* 单选 */}
                 {q.qtype === 'single' && (
@@ -146,7 +147,7 @@ export default function QuizBlock({ questions, title = '章节测试' }: { quest
                           }`}
                         >
                           <span className="num mt-[1px] shrink-0 text-[11px] text-muted">{letter}</span>
-                          <span>{opt.replace(/^[A-D][.、]\s*/, '')}</span>
+                          <span>{inline(opt.replace(/^[A-D][.、]\s*/, ''), `${q.id}-opt-${letter}`)}</span>
                         </button>
                       );
                     })}
@@ -190,7 +191,7 @@ export default function QuizBlock({ questions, title = '章节测试' }: { quest
                               </svg>
                             )}
                           </span>
-                          <span>{opt.replace(/^[A-D][.、]\s*/, '')}</span>
+                          <span>{inline(opt.replace(/^[A-D][.、]\s*/, ''), `${q.id}-opt-${letter}`)}</span>
                         </button>
                       );
                     })}
