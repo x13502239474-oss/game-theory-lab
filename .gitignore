@@ -31,3 +31,6 @@ scripts/validate.mjs
 
 # 本地工作区记录
 .workbuddy/
+
+# Actions 配置需 workflow 权限，本项目改用 gh-pages 分支
+.github/
