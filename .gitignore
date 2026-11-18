@@ -37,3 +37,5 @@ scripts/validate.mjs
 
 # Actions 配置需 workflow 权限，本项目改用 gh-pages 分支
 .github/
+scripts/.audit.mjs
+scripts/.audit.mjs

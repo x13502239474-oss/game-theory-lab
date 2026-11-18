@@ -24,7 +24,8 @@ export function inline(text: string, keyBase = 'i'): React.ReactNode[] {
   return parts.filter(Boolean).map((p, i) => {
     const key = `${keyBase}-${i}`;
     if (p.startsWith('**') && p.endsWith('**') && p.length > 4) {
-      return <strong key={key}>{p.slice(2, -2)}</strong>;
+      // 加粗内部允许再嵌公式/代码，否则会原样显示 $...$
+      return <strong key={key}>{inline(p.slice(2, -2), key)}</strong>;
     }
     if (p.startsWith('$') && p.endsWith('$') && p.length > 2) {
       return <span key={key} dangerouslySetInnerHTML={{ __html: mathHtml(p.slice(1, -1)) }} />;

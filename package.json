@@ -8,7 +8,8 @@
     "build": "tsc -b && vite build",
     "lint": "oxlint",
     "preview": "vite preview",
-    "check": "esbuild scripts/validate.ts --bundle --format=esm --platform=node --outfile=scripts/.validate.mjs --log-level=error && node scripts/.validate.mjs"
+    "check": "esbuild scripts/validate.ts --bundle --format=esm --platform=node --outfile=scripts/.validate.mjs --log-level=error && node scripts/.validate.mjs",
+    "audit": "esbuild scripts/audit-math.ts --bundle --format=esm --platform=node --outfile=scripts/.audit.mjs --log-level=error && node scripts/.audit.mjs"
   },
   "dependencies": {
     "katex": "^0.19.1",
