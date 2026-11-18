@@ -57,11 +57,19 @@ ALL_LESSONS.forEach((l, i) => {
   });
 });
 
-// 2. 引用完整性
+// 2. 案例：引用完整性 + 案例题
 const lessonIds = new Set(ALL_LESSONS.map((l) => l.id));
+let cq = 0;
 CASES.forEach((c) => {
   c.lessons.forEach((id) => {
     if (!lessonIds.has(id)) problems.push(`案例 ${c.id} 引用了不存在的课程 ${id}`);
+  });
+  (c.quiz ?? []).forEach((x) => {
+    cq++;
+    if (QUESTION_MAP[x.id]?.id !== x.id) problems.push(`案例题 ${x.id} 未登记`);
+    if (!x.explanation) problems.push(`案例题 ${x.id} 缺解析`);
+    if (x.qtype !== 'scenario') problems.push(`案例题 ${x.id} 应为情景题 (${x.qtype})`);
+    if (!x.keywords || x.keywords.length < 2) problems.push(`案例题 ${x.id} 缺少要点组`);
   });
 });
 GRAPH_NODES.forEach((n) => {
@@ -91,7 +99,7 @@ STAGES.forEach((s) => {
   if (s.lessons.length !== 8) problems.push(`阶段 ${s.no} 课时数 ${s.lessons.length} != 8`);
 });
 
-console.log('课程数：', ALL_LESSONS.length, '｜题目数：', q);
+console.log('课程数：', ALL_LESSONS.length, '｜课程题：', q, '｜案例题：', cq);
 console.log('案例：', CASES.length, '｜图谱节点：', GRAPH_NODES.length, '｜边：', GRAPH_EDGES.length);
 console.log('实验：', LABS.length, '｜每日博弈：', DAILY_GAMES.length);
 console.log('---');

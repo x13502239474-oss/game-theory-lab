@@ -34,8 +34,8 @@ export default function Mistakes() {
       .sort((a, b) => (b?.rec.lastAt ?? 0) - (a?.rec.lastAt ?? 0)) as {
       rec: (typeof state.quiz)[string];
       q: Question;
-      ref: { lessonId: string; lessonNo: number; lessonTitle: string; stage: number };
-      lesson: (typeof LESSON_MAP)[string];
+      ref: { lessonId: string; lessonNo: number; lessonTitle: string; stage: number; kind: 'lesson' | 'case'; caseId?: string };
+      lesson: (typeof LESSON_MAP)[string] | null;
     }[];
   }, [state.quiz, tab, stage]);
 
@@ -43,7 +43,9 @@ export default function Mistakes() {
     const m: Record<string, number> = {};
     Object.entries(state.quiz).forEach(([qid, rec]) => {
       const f = getQuestion(qid);
-      if (f && rec.wrong > 0 && !(rec.solved && rec.mastered)) m[f.ref.lessonId] = (m[f.ref.lessonId] ?? 0) + 1;
+      if (f && f.ref.kind === 'lesson' && rec.wrong > 0 && !(rec.solved && rec.mastered)) {
+        m[f.ref.lessonId] = (m[f.ref.lessonId] ?? 0) + 1;
+      }
     });
     return Object.entries(m).sort((a, b) => b[1] - a[1]);
   }, [state.quiz]);
@@ -140,9 +142,15 @@ export default function Mistakes() {
             <div key={q.id} className="card">
               <div className="flex items-start justify-between gap-2 border-b border-line px-4 py-2.5">
                 <div className="min-w-0">
-                  <Link to={`/lesson/${ref.lessonId}`} className="text-[10.5px] text-copper">
-                    L{String(ref.lessonNo).padStart(2, '0')} · {ref.lessonTitle}
-                  </Link>
+                  {ref.kind === 'case' ? (
+                    <Link to={`/cases/${ref.caseId}`} className="text-[10.5px] text-copper">
+                      案例 · {ref.lessonTitle}
+                    </Link>
+                  ) : (
+                    <Link to={`/lesson/${ref.lessonId}`} className="text-[10.5px] text-copper">
+                      L{String(ref.lessonNo).padStart(2, '0')} · {ref.lessonTitle}
+                    </Link>
+                  )}
                   <div className="mt-1 flex items-center gap-2.5 text-[10px] text-muted">
                     <span>错 {rec.wrong} 次</span>
                     <span>上次 {fmtShortDate(rec.lastAt)}</span>

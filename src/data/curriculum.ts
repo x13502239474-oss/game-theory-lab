@@ -1,4 +1,5 @@
 import type { Lesson, Stage } from './types';
+import { CASES } from './cases';
 import { stage1 } from './lessons/stage1';
 import { stage2 } from './lessons/stage2';
 import { stage3 } from './lessons/stage3';
@@ -78,20 +79,45 @@ export interface QuestionRef {
   lessonNo: number;
   lessonTitle: string;
   stage: number;
+  /** lesson=课程题；case=案例情景题 */
+  kind: 'lesson' | 'case';
+  /** 案例题所属案例 id（仅 kind==='case' 时有值） */
+  caseId?: string;
 }
 
-export const QUESTION_MAP: Record<string, QuestionRef> = Object.fromEntries(
-  ALL_LESSONS.flatMap((l) =>
-    l.quiz.map((q) => [
-      q.id,
-      { id: q.id, lessonId: l.id, lessonNo: l.no, lessonTitle: l.title, stage: l.stage },
-    ])
-  )
+const lessonRefs: [string, QuestionRef][] = ALL_LESSONS.flatMap((l) =>
+  l.quiz.map((q) => [
+    q.id,
+    { id: q.id, lessonId: l.id, lessonNo: l.no, lessonTitle: l.title, stage: l.stage, kind: 'lesson' as const },
+  ])
 );
+
+const caseRefs: [string, QuestionRef][] = CASES.flatMap((c) =>
+  (c.quiz ?? []).map((q) => [
+    q.id,
+    {
+      id: q.id,
+      lessonId: c.id,
+      lessonNo: 0,
+      lessonTitle: c.title,
+      stage: 0,
+      kind: 'case' as const,
+      caseId: c.id,
+    },
+  ])
+);
+
+export const QUESTION_MAP: Record<string, QuestionRef> = Object.fromEntries([...lessonRefs, ...caseRefs]);
 
 export function getQuestion(qid: string) {
   const ref = QUESTION_MAP[qid];
   if (!ref) return null;
+  if (ref.kind === 'case') {
+    const c = CASES.find((x) => x.id === ref.caseId);
+    const q = c?.quiz?.find((x) => x.id === qid);
+    if (!q) return null;
+    return { q, ref, lesson: null };
+  }
   const lesson = LESSON_MAP[ref.lessonId];
   const q = lesson?.quiz.find((x) => x.id === qid);
   if (!q) return null;

@@ -2,6 +2,7 @@ import { Link, useNavigate, useParams } from 'react-router-dom';
 import { CASES, CASE_MAP } from '../data/cases';
 import { LESSON_MAP } from '../data/curriculum';
 import { inline } from '../lib/prose';
+import QuizBlock from '../components/QuizBlock';
 
 const SECTIONS = [
   { key: 'background', no: '01', title: '案例背景' },
@@ -120,6 +121,19 @@ export default function CaseDetail() {
           })}
         </div>
       </section>
+
+      {c.quiz && c.quiz.length > 0 && (
+        <section className="mt-7 border-t border-line pt-5">
+          <div className="mb-1 flex items-baseline gap-2">
+            <div className="label-copper">CASE CHECK</div>
+            <span className="text-[10.5px] text-muted">读后检验</span>
+          </div>
+          <p className="mb-4 text-[12px] leading-relaxed text-muted">
+            用一句话检验你是否抓住了本案例的博弈结构——写出分析要点，提交后自动判分并收录到错题本。
+          </p>
+          <QuizBlock questions={c.quiz} title="案例检验" />
+        </section>
+      )}
 
       <div className="mt-6 grid grid-cols-2 gap-2">
         {prev ? (
