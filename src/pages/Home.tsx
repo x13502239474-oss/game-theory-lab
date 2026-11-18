@@ -1,1 +1,220 @@
-aW1wb3J0IHsgTGluayB9IGZyb20gJ3JlYWN0LXJvdXRlci1kb20nOw0KaW1wb3J0IHsgdXNlU3RvcmUsIHRvZGF5S2V5IH0gZnJvbSAnLi4vc3RvcmUvc3RvcmUnOw0KaW1wb3J0IHsgQUxMX0xFU1NPTlMsIFNUQUdFX01BUCwgVE9UQUxfTUlOVVRFUyB9IGZyb20gJy4uL2RhdGEvY3VycmljdWx1bSc7DQppbXBvcnQgeyBDQVNFUyB9IGZyb20gJy4uL2RhdGEvY2FzZXMnOw0KaW1wb3J0IHsgZGFpbHlHYW1lT2YgfSBmcm9tICcuLi9kYXRhL2RhaWx5JzsNCmltcG9ydCB7IGZtdERhdGVDTiwgZm10TWludXRlcyB9IGZyb20gJy4uL2xpYi9kYXRlJzsNCmltcG9ydCB7IFJpbmcsIFNlY3Rpb25IZWFkLCBCYXIgfSBmcm9tICcuLi9jb21wb25lbnRzL3VpJzsNCmltcG9ydCB7IGlubGluZSB9IGZyb20gJy4uL2xpYi9wcm9zZSc7DQoNCmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIEhvbWUoKSB7DQogIGNvbnN0IHsgc3RhdGUsIHN0YXRzLCBzZXREYWlseSB9ID0gdXNlU3RvcmUoKTsNCiAgY29uc3Qga2V5ID0gdG9kYXlLZXkoKTsNCiAgY29uc3QgZ2FtZSA9IGRhaWx5R2FtZU9mKGtleSk7DQogIGNvbnN0IHJlYyA9IHN0YXRlLmRhaWx5W2tleV0gPz8ge307DQoNCiAgY29uc3QgY3VycmVudCA9IEFMTF9MRVNTT05TLmZpbmQoKGwpID0+ICFzdGF0ZS5sZXNzb25zW2wuaWRdPy5kb25lKSA/PyBBTExfTEVTU09OU1tBTExfTEVTU09OUy5sZW5ndGggLSAxXTsNCiAgY29uc3QgaWR4ID0gQUxMX0xFU1NPTlMuZmluZEluZGV4KChsKSA9PiBsLmlkID09PSBjdXJyZW50LmlkKTsNCiAgY29uc3QgbmV4dCA9IEFMTF9MRVNTT05TW01hdGgubWluKGlkeCArIDEsIEFMTF9MRVNTT05TLmxlbmd0aCAtIDEpXTsNCiAgY29uc3Qgc3RhZ2UgPSBTVEFHRV9NQVBbY3VycmVudC5zdGFnZV07DQogIGNvbnN0IGRvbmVJblN0YWdlID0gc3RhZ2UubGVzc29ucy5maWx0ZXIoKGwpID0+IHN0YXRlLmxlc3NvbnNbbC5pZF0/LmRvbmUpLmxlbmd0aDsNCg0KICAvLyDku4rml6XmoYjkvovvvJrmjInml6XmnJ/lnKjmoYjkvovlupPph4zova7mjaINCiAgY29uc3QgZGF5SWR4ID0gTnVtYmVyKGtleS5yZXBsYWNlKC8tL2csICcnKSkgJSBDQVNFUy5sZW5ndGg7DQogIGNvbnN0IHRvZGF5Q2FzZSA9IENBU0VTW2RheUlkeF07DQoNCiAgY29uc3QgcGN0ID0gc3RhdHMuZG9uZUNvdW50IC8gQUxMX0xFU1NPTlMubGVuZ3RoOw0KICBjb25zdCBzdGFnZVBjdCA9IGRvbmVJblN0YWdlIC8gc3RhZ2UubGVzc29ucy5sZW5ndGg7DQoNCiAgcmV0dXJuICgNCiAgICA8ZGl2IGNsYXNzTmFtZT0icGFnZS13cmFwIj4NCiAgICAgIHsvKiDmiqXlpLQgKi99DQogICAgICA8aGVhZGVyIGNsYXNzTmFtZT0icmlzZSI+DQogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLXN0YXJ0IGp1c3RpZnktYmV0d2VlbiI+DQogICAgICAgICAgPGRpdj4NCiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJsYWJlbC1jb3BwZXIgbWItMSI+R0FNRSBUSEVPUlkgTEFCPC9kaXY+DQogICAgICAgICAgICA8aDEgY2xhc3NOYW1lPSJtYXN0aGVhZCB0ZXh0LVsyNnB4XSBsZWFkaW5nLVsxLjE1XSB0ZXh0LWluayI+DQogICAgICAgICAgICAgIOWNmuW8iOiuug0KICAgICAgICAgICAgICA8YnIgLz4NCiAgICAgICAgICAgICAg56CU56m25omADQogICAgICAgICAgICA8L2gxPg0KICAgICAgICAgIDwvZGl2Pg0KICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJ0ZXh0LXJpZ2h0Ij4NCiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJsYWJlbCI+e2ZtdERhdGVDTigpfTwvZGl2Pg0KICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9Im10LTEuNSBmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWVuZCBnYXAtMS41Ij4NCiAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJoLTEgdy0xIHJvdW5kZWQtZnVsbCBiZy1jb3BwZXIiIC8+DQogICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0ibnVtIHRleHQtWzEzcHhdIHRleHQtaW5rIj57c3RhdHMuc3RyZWFrfTwvc3Bhbj4NCiAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LVsxMC41cHhdIHRleHQtbXV0ZWQiPuWkqei/nue7reWtpuS5oDwvc3Bhbj4NCiAgICAgICAgICAgIDwvZGl2Pg0KICAgICAgICAgIDwvZGl2Pg0KICAgICAgICA8L2Rpdj4NCiAgICAgICAgPGRpdiBjbGFzc05hbWU9Im10LTQgcnVsZSIgLz4NCiAgICAgIDwvaGVhZGVyPg0KDQogICAgICB7Lyog5b2T5YmN6Zi25q61ICovfQ0KICAgICAgPHNlY3Rpb24gY2xhc3NOYW1lPSJtdC01Ij4NCiAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtYmFzZWxpbmUganVzdGlmeS1iZXR3ZWVuIj4NCiAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9ImxhYmVsIj7lvZPliY3pmLbmrrU8L3NwYW4+DQogICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LVsxMC41cHhdIHRleHQtbXV0ZWQiPg0KICAgICAgICAgICAge2RvbmVJblN0YWdlfS97c3RhZ2UubGVzc29ucy5sZW5ndGh9IOivvg0KICAgICAgICAgIDwvc3Bhbj4NCiAgICAgICAgPC9kaXY+DQogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJtdC0yIGZsZXggaXRlbXMtZW5kIGp1c3RpZnktYmV0d2VlbiBnYXAtNCI+DQogICAgICAgICAgPGRpdiBjbGFzc05hbWU9Im1pbi13LTAiPg0KICAgICAgICAgICAgPGgyIGNsYXNzTmFtZT0ibWFzdGhlYWQgdGV4dC1bMjFweF0gbGVhZGluZy1zbnVnIHRleHQtaW5rIj4NCiAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJudW0gbXItMiB0ZXh0LVsxM3B4XSB0ZXh0LWNvcHBlciI+MHtzdGFnZS5ub308L3NwYW4+DQogICAgICAgICAgICAgIHtzdGFnZS50aXRsZX0NCiAgICAgICAgICAgIDwvaDI+DQogICAgICAgICAgICA8cCBjbGFzc05hbWU9Im10LTEuNSBtYXgtdy1bMzAwcHhdIHRleHQtWzExLjVweF0gbGVhZGluZy1yZWxheGVkIHRleHQtbXV0ZWQiPntzdGFnZS5zdW1tYXJ5fTwvcD4NCiAgICAgICAgICA8L2Rpdj4NCiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0idy0xNiBzaHJpbmstMCI+DQogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0idGV4dC1yaWdodCB0ZXh0LVsxMHB4XSB0ZXh0LW11dGVkIj57TWF0aC5yb3VuZChzdGFnZVBjdCAqIDEwMCl9JTwvZGl2Pg0KICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9Im10LTEuNSI+DQogICAgICAgICAgICAgIDxCYXIgdmFsdWU9e3N0YWdlUGN0fSAvPg0KICAgICAgICAgICAgPC9kaXY+DQogICAgICAgICAgPC9kaXY+DQogICAgICAgIDwvZGl2Pg0KICAgICAgPC9zZWN0aW9uPg0KDQogICAgICB7Lyog5a2m5Lmg6L+b5bqmICovfQ0KICAgICAgPHNlY3Rpb24gY2xhc3NOYW1lPSJtdC03Ij4NCiAgICAgICAgPFNlY3Rpb25IZWFkIGluZGV4PSIwMSIgdGl0bGU9IuWtpuS5oOi/m+W6piIgcmlnaHQ9ezxMaW5rIHRvPSIvY291cnNlcyIgY2xhc3NOYW1lPSJ0ZXh0LVsxMC41cHhdIHRleHQtY29wcGVyIj7lhajpg6jor77nqIsg4oaSPC9MaW5rPn0gLz4NCiAgICAgICAgPGRpdiBjbGFzc05hbWU9ImNhcmQgZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTUgcC00Ij4NCiAgICAgICAgICA8UmluZyB2YWx1ZT17cGN0fSBsYWJlbD17YCR7TWF0aC5yb3VuZChwY3QgKiAxMDApfSVgfSBzdWI9IuWujOaIkOeOhyIgc2l6ZT17ODZ9IC8+DQogICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImdyaWQgZmxleC0xIGdyaWQtY29scy0yIGdhcC15LTMuNSI+DQogICAgICAgICAgICA8ZGl2Pg0KICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ibnVtIHRleHQtWzE2cHhdIGxlYWRpbmctbm9uZSB0ZXh0LWluayI+DQogICAgICAgICAgICAgICAge3N0YXRzLmRvbmVDb3VudH0NCiAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9InRleHQtWzEwcHhdIHRleHQtbXV0ZWQiPiAvIHtBTExfTEVTU09OUy5sZW5ndGh9PC9zcGFuPg0KICAgICAgICAgICAgICA8L2Rpdj4NCiAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9Im10LTEgdGV4dC1bMTBweF0gdHJhY2tpbmctWzAuMDhlbV0gdGV4dC1tdXRlZCI+5bey5a6M5oiQ56ug6IqCPC9kaXY+DQogICAgICAgICAgICA8L2Rpdj4NCiAgICAgICAgICAgIDxkaXY+DQogICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJudW0gdGV4dC1bMTZweF0gbGVhZGluZy1ub25lIHRleHQtaW5rIj4NCiAgICAgICAgICAgICAgICB7c3RhdHMuZG9uZU1pbnV0ZXN9DQogICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LVsxMHB4XSB0ZXh0LW11dGVkIj4g5YiGPC9zcGFuPg0KICAgICAgICAgICAgICA8L2Rpdj4NCiAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9Im10LTEgdGV4dC1bMTBweF0gdHJhY2tpbmctWzAuMDhlbV0gdGV4dC1tdXRlZCI+57Sv6K6h5a2m5Lmg5pe26ZW/PC9kaXY+DQogICAgICAgICAgICA8L2Rpdj4NCiAgICAgICAgICAgIDxkaXY+DQogICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJudW0gdGV4dC1bMTZweF0gbGVhZGluZy1ub25lIHRleHQtaW5rIj5Me1N0cmluZyhjdXJyZW50Lm5vKS5wYWRTdGFydCgyLCAnMCcpfTwvZGl2Pg0KICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ibXQtMSB0ZXh0LVsxMHB4XSB0cmFja2luZy1bMC4wOGVtXSB0ZXh0LW11dGVkIj7lvZPliY3or77nqIs8L2Rpdj4NCiAgICAgICAgICAgIDwvZGl2Pg0KICAgICAgICAgICAgPGRpdj4NCiAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9Im51bSB0ZXh0LVsxNnB4XSBsZWFkaW5nLW5vbmUgdGV4dC1pbmsiPkx7U3RyaW5nKG5leHQubm8pLnBhZFN0YXJ0KDIsICcwJyl9PC9kaXY+DQogICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJtdC0xIHRleHQtWzEwcHhdIHRyYWNraW5nLVswLjA4ZW1dIHRleHQtbXV0ZWQiPuS4i+S4gOiKguivvueoizwvZGl2Pg0KICAgICAgICAgICAgPC9kaXY+DQogICAgICAgICAgPC9kaXY+DQogICAgICAgIDwvZGl2Pg0KICAgICAgICA8cCBjbGFzc05hbWU9Im10LTIgdGV4dC1bMTAuNXB4XSB0ZXh0LW11dGVkIj4NCiAgICAgICAgICDlhajor77nqIsge0FMTF9MRVNTT05TLmxlbmd0aH0g6K++IMK3IOe6piB7TWF0aC5yb3VuZChUT1RBTF9NSU5VVEVTIC8gNjApfSDlsI/ml7Ygwrcg5LuK5pel5bey5a2mIHtmbXRNaW51dGVzKHN0YXRzLnRvZGF5U2Vjb25kcyl9DQogICAgICAgIDwvcD4NCiAgICAgIDwvc2VjdGlvbj4NCg0KICAgICAgey8qIOS7iuaXpeWtpuS5oCAqL30NCiAgICAgIDxzZWN0aW9uIGNsYXNzTmFtZT0ibXQtNyI+DQogICAgICAgIDxTZWN0aW9uSGVhZCBpbmRleD0iMDIiIHRpdGxlPSLku4rml6XlrabkuaAiIHN1Yj0i5q+P5aSp5LiA5Liq55+l6K+G54K577yM5LiA5Liq5qGI5L6L77yM5Yeg6YGT6aKY44CCIiAvPg0KICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iY2FyZCI+DQogICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImJvcmRlci1iIGJvcmRlci1saW5lIHB4LTQgcHktMy41Ij4NCiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWJhc2VsaW5lIGp1c3RpZnktYmV0d2VlbiI+DQogICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0ibGFiZWwiPuS7iuaXpeefpeivhueCuTwvc3Bhbj4NCiAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LVsxMHB4XSB0ZXh0LW11dGVkIj57Y3VycmVudC5taW51dGVzfSDliIbpkp88L3NwYW4+DQogICAgICAgICAgICA8L2Rpdj4NCiAgICAgICAgICAgIDxoMyBjbGFzc05hbWU9Im10LTEuNSB0ZXh0LVsxNnB4XSBmb250LXNlbWlib2xkIGxlYWRpbmctc251ZyB0ZXh0LWluayI+DQogICAgICAgICAgICAgIEx7U3RyaW5nKGN1cnJlbnQubm8pLnBhZFN0YXJ0KDIsICcwJyl9IMK3IHtjdXJyZW50LnRpdGxlfQ0KICAgICAgICAgICAgPC9oMz4NCiAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0ibXQtMSB0ZXh0LVsxMS41cHhdIGxlYWRpbmctcmVsYXhlZCB0ZXh0LW11dGVkIj57Y3VycmVudC5zdWJ0aXRsZX08L3A+DQogICAgICAgICAgPC9kaXY+DQogICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImdyaWQgZ3JpZC1jb2xzLTIgZGl2aWRlLXggZGl2aWRlLWxpbmUgYm9yZGVyLWIgYm9yZGVyLWxpbmUiPg0KICAgICAgICAgICAgPExpbmsgdG89e2AvY2FzZXMvJHt0b2RheUNhc2UuaWR9YH0gY2xhc3NOYW1lPSJ0YXAgYmxvY2sgcHgtNCBweS0zIj4NCiAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImxhYmVsIj7ku4rml6XmoYjkvos8L2Rpdj4NCiAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9Im10LTEgdGV4dC1bMTJweF0gbGVhZGluZy1zbnVnIHRleHQtaW5rIj57dG9kYXlDYXNlLnRpdGxlfTwvZGl2Pg0KICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ibXQtMSB0ZXh0LVsxMHB4XSB0ZXh0LW11dGVkIj57dG9kYXlDYXNlLmRvbWFpbn0gwrcge3RvZGF5Q2FzZS55ZWFyfTwvZGl2Pg0KICAgICAgICAgICAgPC9MaW5rPg0KICAgICAgICAgICAgPExpbmsgdG89e2AvbGVzc29uLyR7Y3VycmVudC5pZH1gfSBjbGFzc05hbWU9InRhcCBibG9jayBweC00IHB5LTMiPg0KICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ibGFiZWwiPuS7iuaXpee7g+S5oDwvZGl2Pg0KICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ibXQtMSB0ZXh0LVsxMnB4XSBsZWFkaW5nLXNudWcgdGV4dC1pbmsiPntjdXJyZW50LnF1aXoubGVuZ3RofSDpgZPpopggwrcg6Lef552A6K++56iLPC9kaXY+DQogICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJtdC0xIHRleHQtWzEwcHhdIHRleHQtbXV0ZWQiPuaPkOS6pOWQjueri+WNs+WIpOWIhjwvZGl2Pg0KICAgICAgICAgICAgPC9MaW5rPg0KICAgICAgICAgIDwvZGl2Pg0KICAgICAgICAgIDxMaW5rDQogICAgICAgICAgICB0bz17YC9sZXNzb24vJHtjdXJyZW50LmlkfWB9DQogICAgICAgICAgICBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktYmV0d2VlbiBweC00IHB5LTMgdGV4dC1bMTIuNXB4XSBmb250LW1lZGl1bSB0ZXh0LWluayB0cmFuc2l0aW9uLWNvbG9ycyBob3ZlcjpiZy10aW50Ig0KICAgICAgICAgID4NCiAgICAgICAgICAgIDxzcGFuPuS4gOmUrue7p+e7reWtpuS5oDwvc3Bhbj4NCiAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0idGV4dC1jb3BwZXIiPuKGkjwvc3Bhbj4NCiAgICAgICAgICA8L0xpbms+DQogICAgICAgIDwvZGl2Pg0KICAgICAgPC9zZWN0aW9uPg0KDQogICAgICB7Lyog5q+P5pel5Y2a5byIICovfQ0KICAgICAgPHNlY3Rpb24gY2xhc3NOYW1lPSJtdC03Ij4NCiAgICAgICAgPFNlY3Rpb25IZWFkIGluZGV4PSIwMyIgdGl0bGU9Iuavj+aXpeWNmuW8iCIgc3ViPSLlhYjlh63nm7Top4nliKTmlq3vvIzlho3nnIvnkIborrrliIbmnpDjgIIiIC8+DQogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJjYXJkIHAtNCI+DQogICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImxhYmVsLWNvcHBlciBtYi0yIj5EQUlMWSBHQU1FIMK3IHtrZXl9PC9kaXY+DQogICAgICAgICAgPGgzIGNsYXNzTmFtZT0idGV4dC1bMTUuNXB4XSBmb250LXNlbWlib2xkIGxlYWRpbmctc251ZyB0ZXh0LWluayI+e2dhbWUucXVlc3Rpb259PC9oMz4NCiAgICAgICAgICA8cCBjbGFzc05hbWU9Im10LTEuNSB0ZXh0LVsxMnB4XSBsZWFkaW5nLXJlbGF4ZWQgdGV4dC1tdXRlZCI+e2dhbWUuc2NlbmV9PC9wPg0KDQogICAgICAgICAgeyFyZWMucmV2ZWFsZWQgPyAoDQogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ibXQtMyBzcGFjZS15LTIiPg0KICAgICAgICAgICAgICB7Z2FtZS5vcHRpb25zLm1hcCgobywgaSkgPT4gKA0KICAgICAgICAgICAgICAgIDxidXR0b24NCiAgICAgICAgICAgICAgICAgIGtleT17aX0NCiAgICAgICAgICAgICAgICAgIG9uQ2xpY2s9eygpID0+IHNldERhaWx5KGtleSwgeyBwcmVkaWN0ZWQ6IGksIHJldmVhbGVkOiB0cnVlIH0pfQ0KICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJmbGV4IHctZnVsbCBpdGVtcy1zdGFydCBnYXAtMi41IGJvcmRlciBib3JkZXItbGluZSBweC0zIHB5LTIuNSB0ZXh0LWxlZnQgdGV4dC1bMTIuNXB4XSBsZWFkaW5nLXJlbGF4ZWQgdGV4dC1pbmstMiB0cmFuc2l0aW9uLWNvbG9ycyBob3Zlcjpib3JkZXItbGluZS0yIGhvdmVyOmJnLVsjRkNGQkY4XSINCiAgICAgICAgICAgICAgICA+DQogICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9Im51bSBtdC1bMXB4XSBzaHJpbmstMCB0ZXh0LVsxMHB4XSB0ZXh0LW11dGVkIj57U3RyaW5nLmZyb21DaGFyQ29kZSg2NSArIGkpfTwvc3Bhbj4NCiAgICAgICAgICAgICAgICAgIDxzcGFuPntvfTwvc3Bhbj4NCiAgICAgICAgICAgICAgICA8L2J1dHRvbj4NCiAgICAgICAgICAgICAgKSl9DQogICAgICAgICAgICA8L2Rpdj4NCiAgICAgICAgICApIDogKA0KICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZhZGUgbXQtMyI+DQogICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJib3JkZXItbC0yIGJvcmRlci1jb3BwZXIgYmctWyNGQUYzRUFdIHB4LTMgcHktMiB0ZXh0LVsxMnB4XSB0ZXh0LVsjN0E1MzI2XSI+DQogICAgICAgICAgICAgICAg5L2g55qE5Yik5pat77yae1N0cmluZy5mcm9tQ2hhckNvZGUoNjUgKyAocmVjLnByZWRpY3RlZCA/PyAwKSl9IMK3IHtnYW1lLm9wdGlvbnNbcmVjLnByZWRpY3RlZCA/PyAwXX0NCiAgICAgICAgICAgICAgPC9kaXY+DQogICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJtdC0yLjUgYm9yZGVyIGJvcmRlci1saW5lIGJnLVsjRkNGQkY3XSBweC0zLjUgcHktMyI+DQogICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImxhYmVsIG1iLTEuNSI+55CG6K665YiG5p6QPC9kaXY+DQogICAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LVsxMi41cHhdIGxlYWRpbmctWzEuODVdIHRleHQtaW5rLTIiPntpbmxpbmUoZ2FtZS5hbmFseXNpcywgJ2dhJyl9PC9wPg0KICAgICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0ibXQtMiB0ZXh0LVsxMS41cHhdIHRleHQtY29wcGVyIj57aW5saW5lKGdhbWUudmVyZGljdCwgJ2d2Jyl9PC9wPg0KICAgICAgICAgICAgICA8L2Rpdj4NCiAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9Im10LTMgZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1iZXR3ZWVuIj4NCiAgICAgICAgICAgICAgICA8TGluayB0bz17YC9sZXNzb24vJHtnYW1lLmxlc3NvbklkfWB9IGNsYXNzTmFtZT0idGV4dC1bMTEuNXB4XSB0ZXh0LWNvcHBlciI+DQogICAgICAgICAgICAgICAgICDnm7jlhbPor77nqIsg4oaSDQogICAgICAgICAgICAgICAgPC9MaW5rPg0KICAgICAgICAgICAgICAgIDxidXR0b24gb25DbGljaz17KCkgPT4gc2V0RGFpbHkoa2V5LCB7IHJldmVhbGVkOiBmYWxzZSB9KX0gY2xhc3NOYW1lPSJ0ZXh0LVsxMXB4XSB0ZXh0LW11dGVkIHVuZGVybGluZS1vZmZzZXQtMiBob3Zlcjp1bmRlcmxpbmUiPg0KICAgICAgICAgICAgICAgICAg5pS26LW3DQogICAgICAgICAgICAgICAgPC9idXR0b24+DQogICAgICAgICAgICAgIDwvZGl2Pg0KICAgICAgICAgICAgPC9kaXY+DQogICAgICAgICAgKX0NCiAgICAgICAgPC9kaXY+DQogICAgICA8L3NlY3Rpb24+DQoNCiAgICAgIHsvKiDlv6vmjbflhaXlj6MgKi99DQogICAgICA8c2VjdGlvbiBjbGFzc05hbWU9Im10LTciPg0KICAgICAgICA8U2VjdGlvbkhlYWQgaW5kZXg9IjA0IiB0aXRsZT0i6L+b5YWl56CU56m25omAIiAvPg0KICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZ3JpZCBncmlkLWNvbHMtMyBnYXAtMi41Ij4NCiAgICAgICAgICB7Ww0KICAgICAgICAgICAgeyB0bzogJy9sYWInLCB0OiAn5a6e6aqM5a6kJywgczogJzYg5Liq5a6e6aqMJywgZDogJ+S6suaJi+aTjeS9nCcgfSwNCiAgICAgICAgICAgIHsgdG86ICcvY2FzZXMnLCB0OiAn5qGI5L6L5bqTJywgczogYCR7Q0FTRVMubGVuZ3RofSDkuKrmoYjkvotgLCBkOiAn5Lmd5Liq57u05bqmJyB9LA0KICAgICAgICAgICAgeyB0bzogJy9ncmFwaCcsIHQ6ICfnn6Xor4blm77osLEnLCBzOiAnMjkg5Liq5qaC5b+1JywgZDogJ+eci+WFs+ezuycgfSwNCiAgICAgICAgICBdLm1hcCgoeCkgPT4gKA0KICAgICAgICAgICAgPExpbmsga2V5PXt4LnRvfSB0bz17eC50b30gY2xhc3NOYW1lPSJjYXJkIGNhcmQtaG92ZXIgdGFwIHAtMyI+DQogICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJ0ZXh0LVsxMi41cHhdIGZvbnQtbWVkaXVtIHRleHQtaW5rIj57eC50fTwvZGl2Pg0KICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ibXQtMyBudW0gdGV4dC1bMTBweF0gdGV4dC1tdXRlZCI+e3guc308L2Rpdj4NCiAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9Im10LVszcHhdIHRleHQtWzEwcHhdIHRleHQtbGluZS0yIj57eC5kfTwvZGl2Pg0KICAgICAgICAgICAgPC9MaW5rPg0KICAgICAgICAgICkpfQ0KICAgICAgICA8L2Rpdj4NCiAgICAgIDwvc2VjdGlvbj4NCg0KICAgICAgPGZvb3RlciBjbGFzc05hbWU9Im10LTkgYm9yZGVyLXQgYm9yZGVyLWxpbmUgcHQtNCI+DQogICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1bMTBweF0gbGVhZGluZy1yZWxheGVkIHRleHQtbXV0ZWQiPg0KICAgICAgICAgIOivvueoi+S4uuiHquS4u+e8luaOku+8jOWPguiAg+W8oOe7tOi/juOAiuWNmuW8iOS4juekvuS8muOAi+OAiuWNmuW8iOiuuuS4juS/oeaBr+e7j+a1juWtpuOAi+eahOefpeivhuahhuaetuS4jumXrumimOaEj+ivhu+8jA0KICAgICAgICAgIOS4jeW8leeUqOWOn+S5pueroOiKguOAgemhteeggeaIluWOn+aWh+OAguaJgOacieaVsOWtpuaOqOWvvOWcqOermeWGheWPr+WkjeaguOOAgg0KICAgICAgICA8L3A+DQogICAgICA8L2Zvb3Rlcj4NCiAgICA8L2Rpdj4NCiAgKTsNCn0NCg==
+import { Link } from 'react-router-dom';
+import { useStore, todayKey } from '../store/store';
+import { ALL_LESSONS, STAGE_MAP, TOTAL_MINUTES } from '../data/curriculum';
+import { CASES } from '../data/cases';
+import { dailyGameOf } from '../data/daily';
+import { fmtDateCN, fmtMinutes } from '../lib/date';
+import { Ring, SectionHead, Bar } from '../components/ui';
+import { inline } from '../lib/prose';
+
+export default function Home() {
+  const { state, stats, setDaily } = useStore();
+  const key = todayKey();
+  const game = dailyGameOf(key);
+  const rec = state.daily[key] ?? {};
+
+  const current = ALL_LESSONS.find((l) => !state.lessons[l.id]?.done) ?? ALL_LESSONS[ALL_LESSONS.length - 1];
+  const idx = ALL_LESSONS.findIndex((l) => l.id === current.id);
+  const next = ALL_LESSONS[Math.min(idx + 1, ALL_LESSONS.length - 1)];
+  const stage = STAGE_MAP[current.stage];
+  const doneInStage = stage.lessons.filter((l) => state.lessons[l.id]?.done).length;
+
+  // 今日案例：按日期在案例库里轮换
+  const dayIdx = Number(key.replace(/-/g, '')) % CASES.length;
+  const todayCase = CASES[dayIdx];
+
+  const pct = stats.doneCount / ALL_LESSONS.length;
+  const stagePct = doneInStage / stage.lessons.length;
+
+  return (
+    <div className="page-wrap">
+      {/* 报头 */}
+      <header className="rise">
+        <div className="flex items-start justify-between">
+          <div>
+            <div className="label-copper mb-1">GAME THEORY LAB</div>
+            <h1 className="masthead text-[26px] leading-[1.15] text-ink">
+              博弈论
+              <br />
+              研究所
+            </h1>
+          </div>
+          <div className="text-right">
+            <div className="label">{fmtDateCN()}</div>
+            <div className="mt-1.5 flex items-center justify-end gap-1.5">
+              <span className="h-1 w-1 rounded-full bg-copper" />
+              <span className="num text-[13px] text-ink">{stats.streak}</span>
+              <span className="text-[10.5px] text-muted">天连续学习</span>
+            </div>
+          </div>
+        </div>
+        <div className="mt-4 rule" />
+      </header>
+
+      {/* 当前阶段 */}
+      <section className="mt-5">
+        <div className="flex items-baseline justify-between">
+          <span className="label">当前阶段</span>
+          <span className="text-[10.5px] text-muted">
+            {doneInStage}/{stage.lessons.length} 课
+          </span>
+        </div>
+        <div className="mt-2 flex items-end justify-between gap-4">
+          <div className="min-w-0">
+            <h2 className="masthead text-[21px] leading-snug text-ink">
+              <span className="num mr-2 text-[13px] text-copper">0{stage.no}</span>
+              {stage.title}
+            </h2>
+            <p className="mt-1.5 max-w-[300px] text-[11.5px] leading-relaxed text-muted">{stage.summary}</p>
+          </div>
+          <div className="w-16 shrink-0">
+            <div className="text-right text-[10px] text-muted">{Math.round(stagePct * 100)}%</div>
+            <div className="mt-1.5">
+              <Bar value={stagePct} />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* 学习进度 */}
+      <section className="mt-7">
+        <SectionHead index="01" title="学习进度" right={<Link to="/courses" className="text-[10.5px] text-copper">全部课程 →</Link>} />
+        <div className="card flex items-center gap-5 p-4">
+          <Ring value={pct} label={`${Math.round(pct * 100)}%`} sub="完成率" size={86} />
+          <div className="grid flex-1 grid-cols-2 gap-y-3.5">
+            <div>
+              <div className="num text-[16px] leading-none text-ink">
+                {stats.doneCount}
+                <span className="text-[10px] text-muted"> / {ALL_LESSONS.length}</span>
+              </div>
+              <div className="mt-1 text-[10px] tracking-[0.08em] text-muted">已完成章节</div>
+            </div>
+            <div>
+              <div className="num text-[16px] leading-none text-ink">
+                {stats.doneMinutes}
+                <span className="text-[10px] text-muted"> 分</span>
+              </div>
+              <div className="mt-1 text-[10px] tracking-[0.08em] text-muted">累计学习时长</div>
+            </div>
+            <div>
+              <div className="num text-[16px] leading-none text-ink">L{String(current.no).padStart(2, '0')}</div>
+              <div className="mt-1 text-[10px] tracking-[0.08em] text-muted">当前课程</div>
+            </div>
+            <div>
+              <div className="num text-[16px] leading-none text-ink">L{String(next.no).padStart(2, '0')}</div>
+              <div className="mt-1 text-[10px] tracking-[0.08em] text-muted">下一节课程</div>
+            </div>
+          </div>
+        </div>
+        <p className="mt-2 text-[10.5px] text-muted">
+          全课程 {ALL_LESSONS.length} 课 · 约 {Math.round(TOTAL_MINUTES / 60)} 小时 · 今日已学 {fmtMinutes(stats.todaySeconds)}
+        </p>
+      </section>
+
+      {/* 今日学习 */}
+      <section className="mt-7">
+        <SectionHead index="02" title="今日学习" sub="每天一个知识点，一个案例，几道题。" />
+        <div className="card">
+          <div className="border-b border-line px-4 py-3.5">
+            <div className="flex items-baseline justify-between">
+              <span className="label">今日知识点</span>
+              <span className="text-[10px] text-muted">{current.minutes} 分钟</span>
+            </div>
+            <h3 className="mt-1.5 text-[16px] font-semibold leading-snug text-ink">
+              L{String(current.no).padStart(2, '0')} · {current.title}
+            </h3>
+            <p className="mt-1 text-[11.5px] leading-relaxed text-muted">{current.subtitle}</p>
+          </div>
+          <div className="grid grid-cols-2 divide-x divide-line border-b border-line">
+            <Link to={`/cases/${todayCase.id}`} className="tap block px-4 py-3">
+              <div className="label">今日案例</div>
+              <div className="mt-1 text-[12px] leading-snug text-ink">{todayCase.title}</div>
+              <div className="mt-1 text-[10px] text-muted">{todayCase.domain} · {todayCase.year}</div>
+            </Link>
+            <Link to={`/lesson/${current.id}`} className="tap block px-4 py-3">
+              <div className="label">今日练习</div>
+              <div className="mt-1 text-[12px] leading-snug text-ink">{current.quiz.length} 道题 · 跟着课程</div>
+              <div className="mt-1 text-[10px] text-muted">提交后立即判分</div>
+            </Link>
+          </div>
+          <Link
+            to={`/lesson/${current.id}`}
+            className="flex items-center justify-between px-4 py-3 text-[12.5px] font-medium text-ink transition-colors hover:bg-tint"
+          >
+            <span>一键继续学习</span>
+            <span className="text-copper">→</span>
+          </Link>
+        </div>
+      </section>
+
+      {/* 每日博弈 */}
+      <section className="mt-7">
+        <SectionHead index="03" title="每日博弈" sub="先凭直觉判断，再看理论分析。" />
+        <div className="card p-4">
+          <div className="label-copper mb-2">DAILY GAME · {key}</div>
+          <h3 className="text-[15.5px] font-semibold leading-snug text-ink">{game.question}</h3>
+          <p className="mt-1.5 text-[12px] leading-relaxed text-muted">{game.scene}</p>
+
+          {!rec.revealed ? (
+            <div className="mt-3 space-y-2">
+              {game.options.map((o, i) => (
+                <button
+                  key={i}
+                  onClick={() => setDaily(key, { predicted: i, revealed: true })}
+                  className="flex w-full items-start gap-2.5 border border-line px-3 py-2.5 text-left text-[12.5px] leading-relaxed text-ink-2 transition-colors hover:border-line-2 hover:bg-[#FCFBF8]"
+                >
+                  <span className="num mt-[1px] shrink-0 text-[10px] text-muted">{String.fromCharCode(65 + i)}</span>
+                  <span>{o}</span>
+                </button>
+              ))}
+            </div>
+          ) : (
+            <div className="fade mt-3">
+              <div className="border-l-2 border-copper bg-[#FAF3EA] px-3 py-2 text-[12px] text-[#7A5326]">
+                你的判断：{String.fromCharCode(65 + (rec.predicted ?? 0))} · {game.options[rec.predicted ?? 0]}
+              </div>
+              <div className="mt-2.5 border border-line bg-[#FCFBF7] px-3.5 py-3">
+                <div className="label mb-1.5">理论分析</div>
+                <p className="text-[12.5px] leading-[1.85] text-ink-2">{inline(game.analysis, 'ga')}</p>
+                <p className="mt-2 text-[11.5px] text-copper">{inline(game.verdict, 'gv')}</p>
+              </div>
+              <div className="mt-3 flex items-center justify-between">
+                <Link to={`/lesson/${game.lessonId}`} className="text-[11.5px] text-copper">
+                  相关课程 →
+                </Link>
+                <button onClick={() => setDaily(key, { revealed: false })} className="text-[11px] text-muted underline-offset-2 hover:underline">
+                  收起
+                </button>
+              </div>
+            </div>
+          )}
+        </div>
+      </section>
+
+      {/* 快捷入口 */}
+      <section className="mt-7">
+        <SectionHead index="04" title="进入研究所" />
+        <div className="grid grid-cols-3 gap-2.5">
+          {[
+            { to: '/lab', t: '实验室', s: '6 个实验', d: '亲手操作' },
+            { to: '/cases', t: '案例库', s: `${CASES.length} 个案例`, d: '九个维度' },
+            { to: '/graph', t: '知识图谱', s: '29 个概念', d: '看关系' },
+          ].map((x) => (
+            <Link key={x.to} to={x.to} className="card card-hover tap p-3">
+              <div className="text-[12.5px] font-medium text-ink">{x.t}</div>
+              <div className="mt-3 num text-[10px] text-muted">{x.s}</div>
+              <div className="mt-[3px] text-[10px] text-line-2">{x.d}</div>
+            </Link>
+          ))}
+        </div>
+      </section>
+
+      <footer className="mt-9 border-t border-line pt-4">
+        <p className="text-[10px] leading-relaxed text-muted">
+          课程为自主编排，参考张维迎《博弈与社会》《博弈论与信息经济学》的知识框架与问题意识，
+          不引用原书章节、页码或原文。所有数学推导在站内可复核。
+        </p>
+      </footer>
+    </div>
+  );
+}

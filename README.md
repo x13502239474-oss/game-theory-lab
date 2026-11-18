@@ -1,1 +1,98 @@
-IyBHQU1FIFRIRU9SWSBMQUIgwrcg5Y2a5byI6K6656CU56m25omADQoNCuS4gOWll+enu+WKqOerr+S8mOWFiOeahCoq5Liq5Lq65Y2a5byI6K666Ieq5a2m57O757ufKirvvJo1NiDoioLor77nqIvjgIE2IOS4quWPr+aTjeS9nOeahOS6kuWKqOWunumqjOOAgTE5IOS4quahiOS+i+OAgTMzIOS4quamguW/teeahOefpeivhuWbvuiwse+8jOS7peWPiuiHquWKqOWIpOWIhueahOmUmemimOacrOS4juWtpuS5oOi/m+W6puiusOW9leOAgg0KDQrlnKjnur/lnLDlnYDvvJoqKmh0dHBzOi8veDEzNTAyMjM5NDc0LW9zcy5naXRodWIuaW8vZ2FtZS10aGVvcnktbGFiLyoq77yI5ZOI5biM6Lev55Sx77yM5Y+v55u05o6l5pS26JeP5YW35L2T6K++56iL77yJDQoNCuS4jeaYr+efpeivhueZvuenke+8jOS5n+S4jeaYr+eUteWtkOS5pumYheivu+WZqOKAlOKAlOavj+S4gOivvumDveiDveivu+OAgeiDvee7g+OAgeiDveeul++8m+avj+S4gOS4quWunumqjOmDveiDveaUueWPguaVsOOAgeeci+Wdh+ihoeenu+WKqOOAgg0KDQotLS0NCg0KIyMg5Yqf6IO9DQoNCioq5a2m5Lmg57O757ufKioNCi0g6aaW6aG15a2m5Lmg5o6n5Yi25Lit5b+D77ya5b2T5YmN6Zi25q6144CB5a6M5oiQ546H44CB57Sv6K6h5pe26ZW/44CB6L+e57ut5a2m5Lmg5aSp5pWw44CB5LuK5pel5Lu75YqhDQotIOavj+aXpeWNmuW8iO+8muWFiOaPkOS6pOWIpOaWre+8jOWGjeeci+eQhuiuuuWIhuaekO+8iOavj+Wkqei9ruaNouS4gOmimO+8jOWFsSAyMCDpopjvvIkNCi0gNTYg6IqC6K++77yM5LiD6Zi25q616YCS6L+b77yI5Z+656GAIOKGkiDpnZnmgIEg4oaSIOWKqOaAgSDihpIg6YeN5aSNIOKGkiDkuI3lrozlhajkv6Hmga8g4oaSIOeOsOWunuW6lOeUqCDihpIg5ryU5YyW5LiO5py65Yi26K6+6K6h77yJDQotIOavj+ivvue7n+S4gOe7k+aehO+8muacrOiKguWvvOWFpSAvIOaguOW/g+amguW/tSAvIOeQhuiuuuaOqOWvvCAvIOe7j+WFuOahiOS+iyAvIOS6kuWKqOaOqOa8lCAvIOacrOiKguaAu+e7kw0KLSDmr4/or74gM+KAkzQg6YGT57uD5Lmg77yM5Zub56eN6aKY5Z6L77ya5Y2V6YCJ44CB5aSa6YCJ44CB5Yik5pat44CB5oOF5pmv5YiG5p6Q77yI5YWz6ZSu6KaB54K55Yik5YiG77yJDQotIEthVGVYIOWFrOW8j+a4suafk+OAgeaUtuebiuefqemYteOAgeWNmuW8iOagke+8iOW1jOWll+e7k+aehOWbvu+8iQ0KDQoqKuS6kuWKqOWunumqjOWupCoq77yI5YWo6YOo5Li655yf5a6e6K6h566X77yM6Z2e6Z2Z5oCB5Zu+77yJDQoxLiDlm5rlvpLlm7DlooPvvJrmlLnmlLbnm4rlj4LmlbDvvIznnIvnu5PmnoTkvZXml7blj5jmiJDlm7DlooMNCjIuIOS7t+agvOaImO+8muaIkOacrCAvIOW4guWcuuinhOaooSAvIOWvueaJi+WumuS7tyDihpIg5a6e5pe25Yip5ram5puy57q/5LiO5pyA5L2z5Y+N5bqUDQozLiDph43lpI3ljZrlvIjvvJrkuI7lm5vnp43nrZbnlaUgQUkg5a+55bGA77yM57Sv6K6h5pS255uK5puy57q/ICsg5Zue5ZCI5piO57uGDQo0LiDorqjku7fov5jku7fvvJrova7mtYHlh7rku7fjgIHom4vns5XnvKnmsLTjgIHlhazlubPlupXnur/lj6/osIMNCjUuIOW4guWcuui/m+WFpe+8muWNmuW8iOagkSArIOaJv+ivuuaKlei1hOa7keWdl++8jOebtOaOpeeci+WIsOOAjOWPr+S/oemXqOanm+OAjeS4juOAjOebiOWIqemXqOanm+OAjQ0KNi4g5L+h5Y+35Lyg6YCS77ya5Y2V5Lqk5Y+J5p2h5Lu244CB5YiG56a75Yy66Ze05LiO5re35ZCM6aOO6ZmpDQoNCioq6ZW/5pyf5bel5YW3KioNCi0g6ZSZ6aKY5pys77ya6Ieq5Yqo5pS25b2V44CB5oyJ6Zi25q61562b6YCJ44CB5pS26JeP44CB6YeN5YGa44CB5qCH6K6w5o6M5o+h44CB6ZKI5a+55oCn5o6o6I2Q6K++56iLDQotIOahiOS+i+W6k++8mjE5IOS4quahiOS+iyDDlyA5IOS4que7tOW6pu+8iOWQq+OAjOeQhuiuuuS4jueOsOWunueahOW3rui3neOAje+8ie+8jOWFtuS4rSAxMyDkuKrkuLrkuK3lm73mnKzlnJ/or63looPmoYjkvovvvIjlvannlLXku7fmoLzmiJjjgIHnvZHnuqbovabooaXotLTjgIHliqDoo4XnlLXmoq/jgIHlsI/lspfmnZHjgIHlubPooYzlv5fmhL/jgIHlhbHkuqvljZXovabjgIHkuozmiYvmiL/osIjliKTjgIHliqDnj63lhoXljbfjgIHmi5vllYbooaXotLTnq57otZvjgIHpnaLmnb/lhYnkvI/kuqfog73nq57otZvjgIHnlLXllYbjgIzkuozpgInkuIDjgI3jgIHnm7jkurLluILlnLrjgIHlrrbplb/nvqTlhoXljbfvvIkNCi0g55+l6K+G5Zu+6LCx77yaMzMg5Liq5qaC5b+16IqC54K544CBMzkg5p2h5YWz57O777yM54K55Ye75p+l55yL5YmN572uIC8g5ZCO57utIC8g5qGI5L6LIC8g6K++56iLDQotIOWtpuS5oOeslOiusOOAgeivvueoi+aUtuiXj+OAgei/keS4g+aXpeWtpuS5oOabsue6v+OAgeaVsOaNruWvvOWFpeWvvOWHug0KDQotLS0NCg0KIyMg5oqA5pyv5qCIDQoNClJlYWN0IDE5ICsgVHlwZVNjcmlwdCArIFZpdGUgKyBUYWlsd2luZCBDU1MgMyArIEthVGVYICsgUmVhY3QgUm91dGVy77yISGFzaFJvdXRlcu+8iQ0KDQrml6DlkI7nq6/jgIHml6DnrKzkuInmlrnku5jotLkgQVBJ44CB5peg6LSm5Y+35L2T57O744CC5omA5pyJ5pWw5o2u5L+d5a2Y5Zyo5rWP6KeI5ZmoIGBsb2NhbFN0b3JhZ2Vg77yM56a757q/5Y+v55So44CCDQoNCmBgYA0Kc3JjLw0KICBkYXRhLyAgICAgICAgICAgIOivvueoiyAvIOmimOW6kyAvIOahiOS+iyAvIOWbvuiwsSAvIOavj+aXpeWNmuW8iO+8iOe6r+aVsOaNru+8jOWPr+ebtOaOpeWinuWIoO+8iQ0KICAgIGxlc3NvbnMvICAgICAgIOS4g+S4qumYtuauteeahOivvueoi+WGheWuuQ0KICBsYWJzLyAgICAgICAgICAgIOWFreS4quS6kuWKqOWunumqjO+8iOWQhOiHqueLrOeri+e7hOS7tiArIOe6r+WHveaVsOiuoeeul++8iQ0KICBjb21wb25lbnRzLyAgICAgIFRhYkJhcuOAgVF1aXpCbG9ja+OAgVByb3Nl77yI6Ieq56CU6L276YePIE1hcmtkb3duICsgS2FUZVjvvInjgIFVSSDljp/lrZDku7YNCiAgcGFnZXMvICAgICAgICAgICDkupTkuKrkuLvlhaXlj6MgKyDor77nqIsgLyDmoYjkvosgLyDlm77osLHlrZDpobUNCiAgc3RvcmUvICAgICAgICAgICDlhajlsYDnirbmgIHkuI7mjIHkuYXljJbvvIjlkKvniYjmnKzlj7fkuI7lr7zlh7rkv6HlsIHvvIkNCiAgbGliLyAgICAgICAgICAgICDmjpLniYjop6PmnpDlmajjgIHml6XmnJ/lt6XlhbcNCnNjcmlwdHMvICAgICAgICAgICDor77nqIvmlbDmja7moKHpqozjgIHmiKrlm77kuI7lhpLng5/mtYvor5XohJrmnKwNCmBgYA0KDQojIyDmnKzlnLDov5DooYwNCg0KYGBgYmFzaA0KbnBtIGluc3RhbGwNCm5wbSBydW4gZGV2ICAgICAgICAjIOW8gOWPkemihOiniA0KbnBtIHJ1biBidWlsZCAgICAgICMg55Sf5Lqn5p6E5bu677yI6L6T5Ye6IGRpc3Qv77yJDQpucG0gcnVuIGNoZWNrICAgICAgIyDor77nqIvnu5PmnoQgKyDpopjlupMgKyDlvJXnlKjlrozmlbTmgKfmoKHpqowNCmBgYA0KDQojIyDpg6jnvbLliLAgR2l0SHViIFBhZ2VzDQoNCuS7k+W6k+W3sumFjee9riBgYmFzZTogJy4vJ2Ag5LiOIEhhc2hSb3V0ZXLvvIzlj6/nm7TmjqXpg6jnvbLlnKjku7vmhI/lrZDot6/lvoTvvJoNCg0K5pys5LuT5bqT6YeH55SoKirmnKzlnLDmnoTlu7ogKyBgZ2gtcGFnZXNgIOWIhuaUryoq55qE5pa55byP5Y+R5biD77yI5LiN5L6d6LWWIEFjdGlvbnPvvInvvJoNCg0KYGBgYmFzaA0KbnBtIHJ1biBidWlsZA0KY2QgZGlzdCAmJiBnaXQgaW5pdCAtYiBnaC1wYWdlcyAmJiBnaXQgYWRkIC1BICYmIGdpdCBjb21taXQgLW0gImRlcGxveSIgXA0KICAmJiBnaXQgcHVzaCAtZiA8cmVwby11cmw+IGdoLXBhZ2VzDQpgYGANCg0K5Zyo5LuT5bqTIFNldHRpbmdzIOKGkiBQYWdlcyDkuK3miormnaXmupDorr7kuLogYGdoLXBhZ2VzYCDliIbmlK/moLnnm67lvZXljbPlj6/jgIINCg0K77yI6Iul5bCG5p2l5pS555SoIEdpdEh1YiBBY3Rpb25z77yM6ZyA6KaB5YW35aSHIGB3b3JrZmxvd2Ag5p2D6ZmQ55qEIHRva2VuIOaJjeiDveaOqOmAgSBgLmdpdGh1Yi93b3JrZmxvd3MvKi55bWxg44CC77yJDQoNCiMjIOWtpuS5oOiusOW9lQ0KDQotIOWtmOWCqOmUru+8mmBndGwuc3RhdGUudjFgDQotIOe7k+aehO+8mmBsZXNzb25zYO+8iOi/m+W6pi/ml7bplb8v5pS26JeP77yJ44CBYHF1aXpg77yI5L2c562UL+mUmemimC/mjozmj6HvvInjgIFgbm90ZXNg44CBYGRhaWx5YOOAgWBkYXlzYO+8iOavj+aXpeaXtumVv++8iQ0KLSDluKYgYHZlcnNpb25gIOWtl+auteS4juWvvOWHuuS/oeWwgSBgeyBhcHAsIGV4cG9ydGVkQXQsIGRhdGEgfWDvvIzkuLrlsIbmnaXkupHnq6/lkIzmraXpooTnlZkNCi0g44CM5oiR55qEIOKGkiDmlbDmja7nrqHnkIbjgI3lj6/lr7zlh7ogLyDlr7zlhaUgSlNPTiDlpIfku73vvIzkuZ/lj6/muIXnqboNCg0KIyMg5YaF5a655p2l5rqQ5LiO54mI5p2DDQoNCuivvueoi+eahOefpeivhuahhuaetuWPguiAg+W8oOe7tOi/juOAiuWNmuW8iOS4juekvuS8muOAi+OAiuWNmuW8iOiuuuS4juS/oeaBr+e7j+a1juWtpuOAi+eahOmXrumimOaEj+ivhuS4jueroOiKguiEiee7nO+8iOOAiuWNmuW8iOS4juekvuS8muOAi+eahOeroOiKgue7k+aehOW3suaguOWvueebruW9le+8ieOAgioq5YWo6YOo6K6y6Kej44CB5L6L6aKY44CB5pWw5YC844CB5Lmg6aKY5LiO5qGI5L6L5paH5pys5Z2H5Li65pys6aG555uu6Ieq5Li757yW5o6SKirvvIzkuI3lvJXnlKjljp/kuabljp/mlofjgIHpobXnoIHmiJblhbfkvZPooajov7DjgILmr4/oioLor77mnKvlsL7moIfms6jkuobkuI7mlZnmnZDnmoTlr7nlupTlhbPns7vvvIzkvpvlu7bkvLjpmIXor7vml7blr7nnhafjgIINCg0K5pWZ5p2QIFBERiDkuLrmiavmj4/niYjjgIHml6DmlofmnKzlsYLvvIzmnKrlgZogT0NSIOWFqOaWh+aPkOWPlu+8jOWboOatpOS4jeWtmOWcqOOAjOWBh+ijheivu+i/h+WOn+aWh+OAjeeahOWGheWuueOAgg0KDQojIyDmianlsZUNCg0KLSDmlrDlop7or77nqIvvvJrlnKggYHNyYy9kYXRhL2xlc3NvbnMvc3RhZ2VYLnRzYCDov73liqDlr7nosaHvvIxgbm9gIOi/nue7reWNs+WPr++8jOebruW9leS4jui/m+W6puiHquWKqOabtOaWsA0KLSDmlrDlop7lrp7pqozvvJrlnKggYHNyYy9sYWJzL2Ag5bu657uE5Lu25bm25ZyoIGBsYWJzL2luZGV4LnRzYCDms6jlhowNCi0g5paw5aKe5qGI5L6L77ya5ZyoIGBzcmMvZGF0YS9jYXNlcy50c2Ag6L+95Yqg77yM5qGI5L6L5bqT5LiO5Zu+6LCx6Ieq5Yqo5YWz6IGUDQotIOaUueWujOi3kSBgbnBtIHJ1biBjaGVja2DvvIznu5PmnoTjgIHnrZTmoYjjgIHlvJXnlKjkvJrooqvpgJDpobnmoKHpqowNCg==
+# GAME THEORY LAB · 博弈论研究所
+
+一套移动端优先的**个人博弈论自学系统**：56 节课程、6 个可操作的互动实验、19 个案例、33 个概念的知识图谱，以及自动判分的错题本与学习进度记录。
+
+在线地址：**https://x13502239474-oss.github.io/game-theory-lab/**（哈希路由，可直接收藏具体课程）
+
+不是知识百科，也不是电子书阅读器——每一课都能读、能练、能算；每一个实验都能改参数、看均衡移动。
+
+---
+
+## 功能
+
+**学习系统**
+- 首页学习控制中心：当前阶段、完成率、累计时长、连续学习天数、今日任务
+- 每日博弈：先提交判断，再看理论分析（每天轮换一题，共 20 题）
+- 56 节课，七阶段递进（基础 → 静态 → 动态 → 重复 → 不完全信息 → 现实应用 → 演化与机制设计）
+- 每课统一结构：本节导入 / 核心概念 / 理论推导 / 经典案例 / 互动推演 / 本节总结
+- 每课 3–4 道练习，四种题型：单选、多选、判断、情景分析（关键要点判分）
+- KaTeX 公式渲染、收益矩阵、博弈树（嵌套结构图）
+
+**互动实验室**（全部为真实计算，非静态图）
+1. 囚徒困境：改收益参数，看结构何时变成困境
+2. 价格战：成本 / 市场规模 / 对手定价 → 实时利润曲线与最佳反应
+3. 重复博弈：与四种策略 AI 对局，累计收益曲线 + 回合明细
+4. 讨价还价：轮流出价、蛋糕缩水、公平底线可调
+5. 市场进入：博弈树 + 承诺投资滑块，直接看到「可信门槛」与「盈利门槛」
+6. 信号传递：单交叉条件、分离区间与混同风险
+
+**长期工具**
+- 错题本：自动收录、按阶段筛选、收藏、重做、标记掌握、针对性推荐课程
+- 案例库：19 个案例 × 9 个维度（含「理论与现实的差距」），其中 13 个为中国本土语境案例（彩电价格战、网约车补贴、加装电梯、小岗村、平行志愿、共享单车、二手房谈判、加班内卷、招商补贴竞赛、面板光伏产能竞赛、电商「二选一」、相亲市场、家长群内卷）
+- 知识图谱：33 个概念节点、39 条关系，点击查看前置 / 后续 / 案例 / 课程
+- 学习笔记、课程收藏、近七日学习曲线、数据导入导出
+
+---
+
+## 技术栈
+
+React 19 + TypeScript + Vite + Tailwind CSS 3 + KaTeX + React Router（HashRouter）
+
+无后端、无第三方付费 API、无账号体系。所有数据保存在浏览器 `localStorage`，离线可用。
+
+```
+src/
+  data/            课程 / 题库 / 案例 / 图谱 / 每日博弈（纯数据，可直接增删）
+    lessons/       七个阶段的课程内容
+  labs/            六个互动实验（各自独立组件 + 纯函数计算）
+  components/      TabBar、QuizBlock、Prose（自研轻量 Markdown + KaTeX）、UI 原子件
+  pages/           五个主入口 + 课程 / 案例 / 图谱子页
+  store/           全局状态与持久化（含版本号与导出信封）
+  lib/             排版解析器、日期工具
+scripts/           课程数据校验、截图与冒烟测试脚本
+```
+
+## 本地运行
+
+```bash
+npm install
+npm run dev        # 开发预览
+npm run build      # 生产构建（输出 dist/）
+npm run check      # 课程结构 + 题库 + 引用完整性校验
+```
+
+## 部署到 GitHub Pages
+
+仓库已配置 `base: './'` 与 HashRouter，可直接部署在任意子路径：
+
+本仓库采用**本地构建 + `gh-pages` 分支**的方式发布（不依赖 Actions）：
+
+```bash
+npm run build
+cd dist && git init -b gh-pages && git add -A && git commit -m "deploy" \
+  && git push -f <repo-url> gh-pages
+```
+
+在仓库 Settings → Pages 中把来源设为 `gh-pages` 分支根目录即可。
+
+（若将来改用 GitHub Actions，需要具备 `workflow` 权限的 token 才能推送 `.github/workflows/*.yml`。）
+
+## 学习记录
+
+- 存储键：`gtl.state.v1`
+- 结构：`lessons`（进度/时长/收藏）、`quiz`（作答/错题/掌握）、`notes`、`daily`、`days`（每日时长）
+- 带 `version` 字段与导出信封 `{ app, exportedAt, data }`，为将来云端同步预留
+- 「我的 → 数据管理」可导出 / 导入 JSON 备份，也可清空
+
+## 内容来源与版权
+
+课程的知识框架参考张维迎《博弈与社会》《博弈论与信息经济学》的问题意识与章节脉络（《博弈与社会》的章节结构已核对目录）。**全部讲解、例题、数值、习题与案例文本均为本项目自主编排**，不引用原书原文、页码或具体表述。每节课末尾标注了与教材的对应关系，供延伸阅读时对照。
+
+教材 PDF 为扫描版、无文本层，未做 OCR 全文提取，因此不存在「假装读过原文」的内容。
+
+## 扩展
+
+- 新增课程：在 `src/data/lessons/stageX.ts` 追加对象，`no` 连续即可，目录与进度自动更新
+- 新增实验：在 `src/labs/` 建组件并在 `labs/index.ts` 注册
+- 新增案例：在 `src/data/cases.ts` 追加，案例库与图谱自动关联
+- 改完跑 `npm run check`，结构、答案、引用会被逐项校验

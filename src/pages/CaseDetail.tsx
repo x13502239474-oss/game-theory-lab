@@ -1,1 +1,142 @@
-aW1wb3J0IHsgTGluaywgdXNlTmF2aWdhdGUsIHVzZVBhcmFtcyB9IGZyb20gJ3JlYWN0LXJvdXRlci1kb20nOw0KaW1wb3J0IHsgQ0FTRVMsIENBU0VfTUFQIH0gZnJvbSAnLi4vZGF0YS9jYXNlcyc7DQppbXBvcnQgeyBMRVNTT05fTUFQIH0gZnJvbSAnLi4vZGF0YS9jdXJyaWN1bHVtJzsNCmltcG9ydCB7IGlubGluZSB9IGZyb20gJy4uL2xpYi9wcm9zZSc7DQoNCmNvbnN0IFNFQ1RJT05TID0gWw0KICB7IGtleTogJ2JhY2tncm91bmQnLCBubzogJzAxJywgdGl0bGU6ICfmoYjkvovog4zmma8nIH0sDQogIHsga2V5OiAnaW50ZXJlc3RzJywgbm86ICcwMycsIHRpdGxlOiAn5ZCE5pa55Yip55uKJyB9LA0KICB7IGtleTogJ3N0cmF0ZWdpZXMnLCBubzogJzA0JywgdGl0bGU6ICflj6/pgInnrZbnlaUnIH0sDQogIHsga2V5OiAncGF5b2ZmcycsIG5vOiAnMDUnLCB0aXRsZTogJ+aUtuebiue7k+aehCcgfSwNCiAgeyBrZXk6ICdtb2RlbCcsIG5vOiAnMDYnLCB0aXRsZTogJ+WNmuW8iOaooeWeiycgfSwNCiAgeyBrZXk6ICdlcXVpbGlicml1bScsIG5vOiAnMDcnLCB0aXRsZTogJ+Wdh+ihoeWIhuaekCcgfSwNCiAgeyBrZXk6ICdyZWFsaXR5Jywgbm86ICcwOCcsIHRpdGxlOiAn546w5a6e57uT5p6cJyB9LA0KICB7IGtleTogJ2dhcCcsIG5vOiAnMDknLCB0aXRsZTogJ+eQhuiuuuS4jueOsOWunueahOW3rui3nScgfSwNCl0gYXMgY29uc3Q7DQoNCmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIENhc2VEZXRhaWwoKSB7DQogIGNvbnN0IHsgaWQgPSAnJyB9ID0gdXNlUGFyYW1zKCk7DQogIGNvbnN0IG5hdiA9IHVzZU5hdmlnYXRlKCk7DQogIGNvbnN0IGMgPSBDQVNFX01BUFtpZF07DQoNCiAgaWYgKCFjKSB7DQogICAgcmV0dXJuICgNCiAgICAgIDxkaXYgY2xhc3NOYW1lPSJwYWdlLXdyYXAiPg0KICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtWzEzcHhdIHRleHQtbXV0ZWQiPuahiOS+i+S4jeWtmOWcqOOAgjwvcD4NCiAgICAgICAgPExpbmsgdG89Ii9jYXNlcyIgY2xhc3NOYW1lPSJtdC0zIGlubGluZS1ibG9jayB0ZXh0LVsxMi41cHhdIHRleHQtY29wcGVyIj4NCiAgICAgICAgICDov5Tlm57moYjkvovlupMg4oaSDQogICAgICAgIDwvTGluaz4NCiAgICAgIDwvZGl2Pg0KICAgICk7DQogIH0NCg0KICBjb25zdCBpZHggPSBDQVNFUy5maW5kSW5kZXgoKHgpID0+IHguaWQgPT09IGMuaWQpOw0KICBjb25zdCBwcmV2ID0gQ0FTRVNbaWR4IC0gMV07DQogIGNvbnN0IG5leHQgPSBDQVNFU1tpZHggKyAxXTsNCg0KICByZXR1cm4gKA0KICAgIDxkaXYgY2xhc3NOYW1lPSJwYWdlLXdyYXAiPg0KICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktYmV0d2VlbiI+DQogICAgICAgIDxidXR0b24gb25DbGljaz17KCkgPT4gbmF2KC0xKX0gY2xhc3NOYW1lPSJ0YXAgZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTEuNSB0ZXh0LVsxMS41cHhdIHRleHQtbXV0ZWQiPg0KICAgICAgICAgIDxzdmcgd2lkdGg9IjE0IiBoZWlnaHQ9IjE0IiB2aWV3Qm94PSIwIDAgMTQgMTQiIGZpbGw9Im5vbmUiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2VXaWR0aD0iMS40Ij4NCiAgICAgICAgICAgIDxwYXRoIGQ9Ik04LjUgMyA0LjUgN2w0IDQiIC8+DQogICAgICAgICAgPC9zdmc+DQogICAgICAgICAg6L+U5ZueDQogICAgICAgIDwvYnV0dG9uPg0KICAgICAgICA8c3BhbiBjbGFzc05hbWU9Im51bSB0ZXh0LVsxMC41cHhdIHRleHQtbXV0ZWQiPg0KICAgICAgICAgIHtTdHJpbmcoaWR4ICsgMSkucGFkU3RhcnQoMiwgJzAnKX0gLyB7U3RyaW5nKENBU0VTLmxlbmd0aCkucGFkU3RhcnQoMiwgJzAnKX0NCiAgICAgICAgPC9zcGFuPg0KICAgICAgPC9kaXY+DQoNCiAgICAgIDxoZWFkZXIgY2xhc3NOYW1lPSJtdC00Ij4NCiAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGdhcC0yIHRleHQtWzEwcHhdIHRyYWNraW5nLVswLjEyZW1dIHRleHQtbXV0ZWQiPg0KICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0idGV4dC1jb3BwZXIiPntjLmRvbWFpbn08L3NwYW4+DQogICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJoLXB4IHctNSBiZy1saW5lLTIiIC8+DQogICAgICAgICAgPHNwYW4+e2MueWVhcn08L3NwYW4+DQogICAgICAgIDwvZGl2Pg0KICAgICAgICA8aDEgY2xhc3NOYW1lPSJtYXN0aGVhZCBtdC0yLjUgdGV4dC1bMjVweF0gbGVhZGluZy1bMS4zXSB0ZXh0LWluayI+e2MudGl0bGV9PC9oMT4NCiAgICAgICAgPGRpdiBjbGFzc05hbWU9Im10LTMgZmxleCBmbGV4LXdyYXAgZ2FwLTEuNSI+DQogICAgICAgICAge2MudGFncy5tYXAoKHQpID0+ICgNCiAgICAgICAgICAgIDxzcGFuIGtleT17dH0gY2xhc3NOYW1lPSJjaGlwIj4NCiAgICAgICAgICAgICAge3R9DQogICAgICAgICAgICA8L3NwYW4+DQogICAgICAgICAgKSl9DQogICAgICAgIDwvZGl2Pg0KICAgICAgPC9oZWFkZXI+DQoNCiAgICAgIDxzZWN0aW9uIGNsYXNzTmFtZT0ibXQtNSI+DQogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJsYWJlbC1jb3BwZXIgbWItMiI+MDEgwrcg5qGI5L6L6IOM5pmvPC9kaXY+DQogICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1bMTMuNXB4XSBsZWFkaW5nLVsxLjldIHRleHQtaW5rLTIiPntpbmxpbmUoYy5iYWNrZ3JvdW5kLCAnYmcnKX08L3A+DQogICAgICA8L3NlY3Rpb24+DQoNCiAgICAgIDxzZWN0aW9uIGNsYXNzTmFtZT0ibXQtNiI+DQogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJsYWJlbC1jb3BwZXIgbWItMiI+MDIgwrcg5Y+C5LiO6ICFPC9kaXY+DQogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJjYXJkIGRpdmlkZS15IGRpdmlkZS1saW5lIj4NCiAgICAgICAgICB7Yy5wbGF5ZXJzLm1hcCgocCkgPT4gKA0KICAgICAgICAgICAgPGRpdiBrZXk9e3AubmFtZX0gY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWJhc2VsaW5lIGp1c3RpZnktYmV0d2VlbiBweC00IHB5LTIuNSI+DQogICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0idGV4dC1bMTIuNXB4XSBmb250LW1lZGl1bSB0ZXh0LWluayI+e3AubmFtZX08L3NwYW4+DQogICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0idGV4dC1bMTFweF0gdGV4dC1tdXRlZCI+e3Aucm9sZX08L3NwYW4+DQogICAgICAgICAgICA8L2Rpdj4NCiAgICAgICAgICApKX0NCiAgICAgICAgPC9kaXY+DQogICAgICA8L3NlY3Rpb24+DQoNCiAgICAgIHtTRUNUSU9OUy5maWx0ZXIoKHMpID0+IHMua2V5ICE9PSAnYmFja2dyb3VuZCcpLm1hcCgocykgPT4gew0KICAgICAgICBjb25zdCB2YWwgPSBjW3Mua2V5IGFzIGtleW9mIHR5cGVvZiBjXTsNCiAgICAgICAgcmV0dXJuICgNCiAgICAgICAgICA8c2VjdGlvbiBrZXk9e3Mua2V5fSBjbGFzc05hbWU9Im10LTYiPg0KICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImxhYmVsLWNvcHBlciBtYi0yIj4NCiAgICAgICAgICAgICAge3Mubm99IMK3IHtzLnRpdGxlfQ0KICAgICAgICAgICAgPC9kaXY+DQogICAgICAgICAgICB7QXJyYXkuaXNBcnJheSh2YWwpID8gKA0KICAgICAgICAgICAgICA8dWwgY2xhc3NOYW1lPSJzcGFjZS15LTIiPg0KICAgICAgICAgICAgICAgIHt2YWwubWFwKCh2LCBpKSA9PiAoDQogICAgICAgICAgICAgICAgICA8bGkga2V5PXtpfSBjbGFzc05hbWU9ImZsZXggZ2FwLTIuNSB0ZXh0LVsxM3B4XSBsZWFkaW5nLVsxLjg1XSB0ZXh0LWluay0yIj4NCiAgICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJtdC1bOXB4XSBoLXB4IHctMi41IHNocmluay0wIGJnLWNvcHBlciIgLz4NCiAgICAgICAgICAgICAgICAgICAgPHNwYW4+e2lubGluZShTdHJpbmcodiksIGAke3Mua2V5fS0ke2l9YCl9PC9zcGFuPg0KICAgICAgICAgICAgICAgICAgPC9saT4NCiAgICAgICAgICAgICAgICApKX0NCiAgICAgICAgICAgICAgPC91bD4NCiAgICAgICAgICAgICkgOiAoDQogICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT17YHRleHQtWzEzLjVweF0gbGVhZGluZy1bMS45XSAke3Mua2V5ID09PSAnZ2FwJyA/ICdib3JkZXItbC0yIGJvcmRlci1jb3BwZXIgYmctWyNGQUY2RUVdIHB4LTMuNSBweS0zIHRleHQtaW5rLTInIDogJ3RleHQtaW5rLTInfWB9Pg0KICAgICAgICAgICAgICAgIHtpbmxpbmUoU3RyaW5nKHZhbCksIHMua2V5KX0NCiAgICAgICAgICAgICAgPC9wPg0KICAgICAgICAgICAgKX0NCiAgICAgICAgICA8L3NlY3Rpb24+DQogICAgICAgICk7DQogICAgICB9KX0NCg0KICAgICAgPHNlY3Rpb24gY2xhc3NOYW1lPSJtdC02IGJvcmRlci10IGJvcmRlci1saW5lIHB0LTMiPg0KICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ibGFiZWwgbWItMiI+55u45YWz6K++56iLPC9kaXY+DQogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGZsZXgtd3JhcCBnYXAtMS41Ij4NCiAgICAgICAgICB7Yy5sZXNzb25zLm1hcCgobGlkKSA9PiB7DQogICAgICAgICAgICBjb25zdCBsID0gTEVTU09OX01BUFtsaWRdOw0KICAgICAgICAgICAgaWYgKCFsKSByZXR1cm4gbnVsbDsNCiAgICAgICAgICAgIHJldHVybiAoDQogICAgICAgICAgICAgIDxMaW5rIGtleT17bGlkfSB0bz17YC9sZXNzb24vJHtsaWR9YH0gY2xhc3NOYW1lPSJjaGlwIGhvdmVyOmJvcmRlci1saW5lLTIgaG92ZXI6dGV4dC1pbmsiPg0KICAgICAgICAgICAgICAgIEx7U3RyaW5nKGwubm8pLnBhZFN0YXJ0KDIsICcwJyl9IHtsLnRpdGxlfQ0KICAgICAgICAgICAgICA8L0xpbms+DQogICAgICAgICAgICApOw0KICAgICAgICAgIH0pfQ0KICAgICAgICA8L2Rpdj4NCiAgICAgIDwvc2VjdGlvbj4NCg0KICAgICAgPGRpdiBjbGFzc05hbWU9Im10LTYgZ3JpZCBncmlkLWNvbHMtMiBnYXAtMiI+DQogICAgICAgIHtwcmV2ID8gKA0KICAgICAgICAgIDxMaW5rIHRvPXtgL2Nhc2VzLyR7cHJldi5pZH1gfSBjbGFzc05hbWU9ImJvcmRlciBib3JkZXItbGluZSBweC0zIHB5LTIuNSBob3ZlcjpiZy10aW50Ij4NCiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJ0ZXh0LVs5LjVweF0gdHJhY2tpbmctWzAuMWVtXSB0ZXh0LW11dGVkIj7kuIrkuIDkuKrmoYjkvos8L2Rpdj4NCiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJtdC0wLjUgdHJ1bmNhdGUgdGV4dC1bMTEuNXB4XSB0ZXh0LWluayI+e3ByZXYudGl0bGV9PC9kaXY+DQogICAgICAgICAgPC9MaW5rPg0KICAgICAgICApIDogKA0KICAgICAgICAgIDxkaXYgLz4NCiAgICAgICAgKX0NCiAgICAgICAge25leHQgJiYgKA0KICAgICAgICAgIDxMaW5rIHRvPXtgL2Nhc2VzLyR7bmV4dC5pZH1gfSBjbGFzc05hbWU9ImJvcmRlciBib3JkZXItbGluZSBweC0zIHB5LTIuNSB0ZXh0LXJpZ2h0IGhvdmVyOmJnLXRpbnQiPg0KICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InRleHQtWzkuNXB4XSB0cmFja2luZy1bMC4xZW1dIHRleHQtbXV0ZWQiPuS4i+S4gOS4quahiOS+izwvZGl2Pg0KICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9Im10LTAuNSB0cnVuY2F0ZSB0ZXh0LVsxMS41cHhdIHRleHQtaW5rIj57bmV4dC50aXRsZX08L2Rpdj4NCiAgICAgICAgICA8L0xpbms+DQogICAgICAgICl9DQogICAgICA8L2Rpdj4NCiAgICA8L2Rpdj4NCiAgKTsNCn0NCg==
+import { Link, useNavigate, useParams } from 'react-router-dom';
+import { CASES, CASE_MAP } from '../data/cases';
+import { LESSON_MAP } from '../data/curriculum';
+import { inline } from '../lib/prose';
+
+const SECTIONS = [
+  { key: 'background', no: '01', title: '案例背景' },
+  { key: 'interests', no: '03', title: '各方利益' },
+  { key: 'strategies', no: '04', title: '可选策略' },
+  { key: 'payoffs', no: '05', title: '收益结构' },
+  { key: 'model', no: '06', title: '博弈模型' },
+  { key: 'equilibrium', no: '07', title: '均衡分析' },
+  { key: 'reality', no: '08', title: '现实结果' },
+  { key: 'gap', no: '09', title: '理论与现实的差距' },
+] as const;
+
+export default function CaseDetail() {
+  const { id = '' } = useParams();
+  const nav = useNavigate();
+  const c = CASE_MAP[id];
+
+  if (!c) {
+    return (
+      <div className="page-wrap">
+        <p className="text-[13px] text-muted">案例不存在。</p>
+        <Link to="/cases" className="mt-3 inline-block text-[12.5px] text-copper">
+          返回案例库 →
+        </Link>
+      </div>
+    );
+  }
+
+  const idx = CASES.findIndex((x) => x.id === c.id);
+  const prev = CASES[idx - 1];
+  const next = CASES[idx + 1];
+
+  return (
+    <div className="page-wrap">
+      <div className="flex items-center justify-between">
+        <button onClick={() => nav(-1)} className="tap flex items-center gap-1.5 text-[11.5px] text-muted">
+          <svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" strokeWidth="1.4">
+            <path d="M8.5 3 4.5 7l4 4" />
+          </svg>
+          返回
+        </button>
+        <span className="num text-[10.5px] text-muted">
+          {String(idx + 1).padStart(2, '0')} / {String(CASES.length).padStart(2, '0')}
+        </span>
+      </div>
+
+      <header className="mt-4">
+        <div className="flex items-center gap-2 text-[10px] tracking-[0.12em] text-muted">
+          <span className="text-copper">{c.domain}</span>
+          <span className="h-px w-5 bg-line-2" />
+          <span>{c.year}</span>
+        </div>
+        <h1 className="masthead mt-2.5 text-[25px] leading-[1.3] text-ink">{c.title}</h1>
+        <div className="mt-3 flex flex-wrap gap-1.5">
+          {c.tags.map((t) => (
+            <span key={t} className="chip">
+              {t}
+            </span>
+          ))}
+        </div>
+      </header>
+
+      <section className="mt-5">
+        <div className="label-copper mb-2">01 · 案例背景</div>
+        <p className="text-[13.5px] leading-[1.9] text-ink-2">{inline(c.background, 'bg')}</p>
+      </section>
+
+      <section className="mt-6">
+        <div className="label-copper mb-2">02 · 参与者</div>
+        <div className="card divide-y divide-line">
+          {c.players.map((p) => (
+            <div key={p.name} className="flex items-baseline justify-between px-4 py-2.5">
+              <span className="text-[12.5px] font-medium text-ink">{p.name}</span>
+              <span className="text-[11px] text-muted">{p.role}</span>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {SECTIONS.filter((s) => s.key !== 'background').map((s) => {
+        const val = c[s.key as keyof typeof c];
+        return (
+          <section key={s.key} className="mt-6">
+            <div className="label-copper mb-2">
+              {s.no} · {s.title}
+            </div>
+            {Array.isArray(val) ? (
+              <ul className="space-y-2">
+                {val.map((v, i) => (
+                  <li key={i} className="flex gap-2.5 text-[13px] leading-[1.85] text-ink-2">
+                    <span className="mt-[9px] h-px w-2.5 shrink-0 bg-copper" />
+                    <span>{inline(String(v), `${s.key}-${i}`)}</span>
+                  </li>
+                ))}
+              </ul>
+            ) : (
+              <p className={`text-[13.5px] leading-[1.9] ${s.key === 'gap' ? 'border-l-2 border-copper bg-[#FAF6EE] px-3.5 py-3 text-ink-2' : 'text-ink-2'}`}>
+                {inline(String(val), s.key)}
+              </p>
+            )}
+          </section>
+        );
+      })}
+
+      <section className="mt-6 border-t border-line pt-3">
+        <div className="label mb-2">相关课程</div>
+        <div className="flex flex-wrap gap-1.5">
+          {c.lessons.map((lid) => {
+            const l = LESSON_MAP[lid];
+            if (!l) return null;
+            return (
+              <Link key={lid} to={`/lesson/${lid}`} className="chip hover:border-line-2 hover:text-ink">
+                L{String(l.no).padStart(2, '0')} {l.title}
+              </Link>
+            );
+          })}
+        </div>
+      </section>
+
+      <div className="mt-6 grid grid-cols-2 gap-2">
+        {prev ? (
+          <Link to={`/cases/${prev.id}`} className="border border-line px-3 py-2.5 hover:bg-tint">
+            <div className="text-[9.5px] tracking-[0.1em] text-muted">上一个案例</div>
+            <div className="mt-0.5 truncate text-[11.5px] text-ink">{prev.title}</div>
+          </Link>
+        ) : (
+          <div />
+        )}
+        {next && (
+          <Link to={`/cases/${next.id}`} className="border border-line px-3 py-2.5 text-right hover:bg-tint">
+            <div className="text-[9.5px] tracking-[0.1em] text-muted">下一个案例</div>
+            <div className="mt-0.5 truncate text-[11.5px] text-ink">{next.title}</div>
+          </Link>
+        )}
+      </div>
+    </div>
+  );
+}

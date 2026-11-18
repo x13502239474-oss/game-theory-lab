@@ -1,1 +1,67 @@
-Ly8g5qOA5p+l5q2j5paHL+mimOebruS4reaYr+WQpuWtmOWcqOOAjOaXoOazleiiq+ihjOWGheino+aekOWZqOivhuWIq+OAjeeahCAkIOWFrOW8j++8iOS8muS7peWOn+aWh+aYvuekuu+8iQ0KaW1wb3J0IHsgQUxMX0xFU1NPTlMgfSBmcm9tICcuLi9zcmMvZGF0YS9jdXJyaWN1bHVtJzsNCmltcG9ydCB7IENBU0VTIH0gZnJvbSAnLi4vc3JjL2RhdGEvY2FzZXMnOw0KaW1wb3J0IHsgREFJTFlfR0FNRVMgfSBmcm9tICcuLi9zcmMvZGF0YS9kYWlseSc7DQoNCmNvbnN0IFNQTElUID0gLyhcKlwqW14qXStcKlwqfFwkW14kXG5dK1wkfGBbXmBdK2ApL2c7DQoNCmZ1bmN0aW9uIGxlYWtzKHJhdzogc3RyaW5nLCBkZXB0aCA9IDApOiBzdHJpbmdbXSB7DQogIGNvbnN0IG91dDogc3RyaW5nW10gPSBbXTsNCiAgY29uc3QgdGV4dCA9IHJhdy5yZXBsYWNlKC9cJFwkW1xzXFNdKj9cJFwkL2csICcnKTsNCiAgY29uc3QgcGFydHMgPSB0ZXh0LnNwbGl0KFNQTElUKS5maWx0ZXIoQm9vbGVhbik7DQogIGZvciAoY29uc3QgcCBvZiBwYXJ0cykgew0KICAgIGlmIChwLnN0YXJ0c1dpdGgoJyoqJykgJiYgcC5lbmRzV2l0aCgnKionKSAmJiBwLmxlbmd0aCA+IDQpIHsNCiAgICAgIGlmIChkZXB0aCA8IDMpIG91dC5wdXNoKC4uLmxlYWtzKHAuc2xpY2UoMiwgLTIpLCBkZXB0aCArIDEpKTsNCiAgICAgIGNvbnRpbnVlOw0KICAgIH0NCiAgICBpZiAocC5zdGFydHNXaXRoKCckJykgJiYgcC5lbmRzV2l0aCgnJCcpICYmIHAubGVuZ3RoID4gMikgY29udGludWU7DQogICAgaWYgKHAuc3RhcnRzV2l0aCgnYCcpICYmIHAuZW5kc1dpdGgoJ2AnKSAmJiBwLmxlbmd0aCA+IDIpIGNvbnRpbnVlOw0KICAgIGlmIChwLmluY2x1ZGVzKCckJykpIG91dC5wdXNoKHAudHJpbSgpLnNsaWNlKDAsIDcwKSk7DQogIH0NCiAgcmV0dXJuIG91dDsNCn0NCg0KbGV0IHRvdGFsID0gMDsNCmZvciAoY29uc3QgbCBvZiBBTExfTEVTU09OUykgew0KICBjb25zdCBoaXRzID0gbGVha3MobC5jb250ZW50KTsNCiAgbC5xdWl6LmZvckVhY2goKHEpID0+IHsNCiAgICBbLi4uaGl0cywgLi4ubGVha3MocS5zdGVtKSwgLi4ubGVha3MocS5leHBsYW5hdGlvbildLmZvckVhY2goKCkgPT4ge30pOw0KICB9KTsNCiAgY29uc3QgcUhpdHMgPSBsLnF1aXouZmxhdE1hcCgocSkgPT4gWy4uLmxlYWtzKHEuc3RlbSksIC4uLmxlYWtzKHEuZXhwbGFuYXRpb24pXSk7DQogIGlmIChoaXRzLmxlbmd0aCB8fCBxSGl0cy5sZW5ndGgpIHsNCiAgICB0b3RhbCArPSBoaXRzLmxlbmd0aCArIHFIaXRzLmxlbmd0aDsNCiAgICBjb25zb2xlLmxvZyhgJHtsLmlkfSDmraPmlocgJHtoaXRzLmxlbmd0aH0g5aSEIC8g6aKY55uuICR7cUhpdHMubGVuZ3RofSDlpIRgKTsNCiAgICBbLi4uaGl0cywgLi4ucUhpdHNdLnNsaWNlKDAsIDMpLmZvckVhY2goKGgpID0+IGNvbnNvbGUubG9nKCcgICDCtycsIGgpKTsNCiAgfQ0KfQ0KY29uc29sZS5sb2codG90YWwgPyBgKioqIOWFsSAke3RvdGFsfSDlpITkvJrmmL7npLrmiJDljp/mlocgKioqYCA6ICflhajpg6jlhazlvI/lj6/op6PmnpAg4pyTJyk7DQoNCi8vIOahiOS+i+W6k++8mumZpCBpZC9kb21haW4veWVhci90YWdzL2xlc3NvbnMg5aSW6YO95piv5Y+v5riy5p+T5paH5pysDQpsZXQgY2FzZVRvdGFsID0gMDsNCmZvciAoY29uc3QgYyBvZiBDQVNFUykgew0KICBjb25zdCBmaWVsZHMgPSBbYy5iYWNrZ3JvdW5kLCBjLnBheW9mZnMsIGMubW9kZWwsIGMuZXF1aWxpYnJpdW0sIGMucmVhbGl0eSwgYy5nYXBdOw0KICBjb25zdCBoaXRzID0gWw0KICAgIC4uLmZpZWxkcy5mbGF0TWFwKChmKSA9PiBsZWFrcyhmKSksDQogICAgLi4uYy5pbnRlcmVzdHMuZmxhdE1hcCgoZikgPT4gbGVha3MoZikpLA0KICAgIC4uLmMuc3RyYXRlZ2llcy5mbGF0TWFwKChmKSA9PiBsZWFrcyhmKSksDQogICAgLi4uYy5wbGF5ZXJzLmZsYXRNYXAoKHApID0+IGxlYWtzKHAucm9sZSkpLA0KICBdOw0KICBpZiAoaGl0cy5sZW5ndGgpIHsNCiAgICBjYXNlVG90YWwgKz0gaGl0cy5sZW5ndGg7DQogICAgY29uc29sZS5sb2coYOahiOS+iyAke2MuaWR9ICR7aGl0cy5sZW5ndGh9IOWkhGApOw0KICAgIGhpdHMuc2xpY2UoMCwgMykuZm9yRWFjaCgoaCkgPT4gY29uc29sZS5sb2coJyAgIMK3JywgaCkpOw0KICB9DQp9DQpjb25zb2xlLmxvZyhjYXNlVG90YWwgPyBgKioqIOahiOS+i+W6k+WFsSAke2Nhc2VUb3RhbH0g5aSE5Lya5pi+56S65oiQ5Y6f5paHICoqKmAgOiAn5qGI5L6L5bqT5YWs5byP5Y+v6Kej5p6QIOKckycpOw0KDQovLyDmr4/ml6XljZrlvIjvvJphbmFseXNpcyAvIHZlcmRpY3QNCmxldCBkYWlseVRvdGFsID0gMDsNCmZvciAoY29uc3QgZyBvZiBEQUlMWV9HQU1FUykgew0KICBjb25zdCBoaXRzID0gWy4uLmxlYWtzKGcuYW5hbHlzaXMpLCAuLi5sZWFrcyhnLnZlcmRpY3QpXTsNCiAgaWYgKGhpdHMubGVuZ3RoKSB7DQogICAgZGFpbHlUb3RhbCArPSBoaXRzLmxlbmd0aDsNCiAgICBjb25zb2xlLmxvZyhg5q+P5pel5Y2a5byIICR7Zy5pZCA/PyAnJ30gJHtoaXRzLmxlbmd0aH0g5aSEYCk7DQogICAgaGl0cy5zbGljZSgwLCAyKS5mb3JFYWNoKChoKSA9PiBjb25zb2xlLmxvZygnICAgwrcnLCBoKSk7DQogIH0NCn0NCmNvbnNvbGUubG9nKGRhaWx5VG90YWwgPyBgKioqIOavj+aXpeWNmuW8iOWFsSAke2RhaWx5VG90YWx9IOWkhOS8muaYvuekuuaIkOWOn+aWhyAqKipgIDogJ+avj+aXpeWNmuW8iOWFrOW8j+WPr+ino+aekCDinJMnKTsNCg==
+// 检查正文/题目中是否存在「无法被行内解析器识别」的 $ 公式（会以原文显示）
+import { ALL_LESSONS } from '../src/data/curriculum';
+import { CASES } from '../src/data/cases';
+import { DAILY_GAMES } from '../src/data/daily';
+
+const SPLIT = /(\*\*[^*]+\*\*|\$[^$\n]+\$|`[^`]+`)/g;
+
+function leaks(raw: string, depth = 0): string[] {
+  const out: string[] = [];
+  const text = raw.replace(/\$\$[\s\S]*?\$\$/g, '');
+  const parts = text.split(SPLIT).filter(Boolean);
+  for (const p of parts) {
+    if (p.startsWith('**') && p.endsWith('**') && p.length > 4) {
+      if (depth < 3) out.push(...leaks(p.slice(2, -2), depth + 1));
+      continue;
+    }
+    if (p.startsWith('$') && p.endsWith('$') && p.length > 2) continue;
+    if (p.startsWith('`') && p.endsWith('`') && p.length > 2) continue;
+    if (p.includes('$')) out.push(p.trim().slice(0, 70));
+  }
+  return out;
+}
+
+let total = 0;
+for (const l of ALL_LESSONS) {
+  const hits = leaks(l.content);
+  l.quiz.forEach((q) => {
+    [...hits, ...leaks(q.stem), ...leaks(q.explanation)].forEach(() => {});
+  });
+  const qHits = l.quiz.flatMap((q) => [...leaks(q.stem), ...leaks(q.explanation)]);
+  if (hits.length || qHits.length) {
+    total += hits.length + qHits.length;
+    console.log(`${l.id} 正文 ${hits.length} 处 / 题目 ${qHits.length} 处`);
+    [...hits, ...qHits].slice(0, 3).forEach((h) => console.log('   ·', h));
+  }
+}
+console.log(total ? `*** 共 ${total} 处会显示成原文 ***` : '全部公式可解析 ✓');
+
+// 案例库：除 id/domain/year/tags/lessons 外都是可渲染文本
+let caseTotal = 0;
+for (const c of CASES) {
+  const fields = [c.background, c.payoffs, c.model, c.equilibrium, c.reality, c.gap];
+  const hits = [
+    ...fields.flatMap((f) => leaks(f)),
+    ...c.interests.flatMap((f) => leaks(f)),
+    ...c.strategies.flatMap((f) => leaks(f)),
+    ...c.players.flatMap((p) => leaks(p.role)),
+  ];
+  if (hits.length) {
+    caseTotal += hits.length;
+    console.log(`案例 ${c.id} ${hits.length} 处`);
+    hits.slice(0, 3).forEach((h) => console.log('   ·', h));
+  }
+}
+console.log(caseTotal ? `*** 案例库共 ${caseTotal} 处会显示成原文 ***` : '案例库公式可解析 ✓');
+
+// 每日博弈：analysis / verdict
+let dailyTotal = 0;
+for (const g of DAILY_GAMES) {
+  const hits = [...leaks(g.analysis), ...leaks(g.verdict)];
+  if (hits.length) {
+    dailyTotal += hits.length;
+    console.log(`每日博弈 ${g.id ?? ''} ${hits.length} 处`);
+    hits.slice(0, 2).forEach((h) => console.log('   ·', h));
+  }
+}
+console.log(dailyTotal ? `*** 每日博弈共 ${dailyTotal} 处会显示成原文 ***` : '每日博弈公式可解析 ✓');

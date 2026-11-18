@@ -1,1 +1,54 @@
-Ly8g5b2TIGdpdCBwdXNoIOiiq+S7o+eQhumYu+aWreaXtu+8jOeUqCBHaXRIdWIgR2l0IERhdGEgQVBJIOaPkOS6pOaMh+WumuaWh+S7tgovLyDnlKjms5XvvJpub2RlIHNjcmlwdHMvYXBpLWNvbW1pdC5tanMgPGJyYW5jaD4gPGZpbGUxPiBbZmlsZTIgLi4uXQppbXBvcnQgZnMgZnJvbSAnbm9kZTpmcyc7CmltcG9ydCBwYXRoIGZyb20gJ25vZGU6cGF0aCc7Cgpjb25zdCBUT0tFTiA9IHByb2Nlc3MuZW52LkdIX1RPS0VOOwpjb25zdCBSRVBPID0gJ3gxMzUwMjIzOTQ3NC1vc3MvZ2FtZS10aGVvcnktbGFiJzsKY29uc3QgW2JyYW5jaCwgLi4uZmlsZXNdID0gcHJvY2Vzcy5hcmd2LnNsaWNlKDIpOwppZiAoIVRPS0VOIHx8ICFicmFuY2ggfHwgZmlsZXMubGVuZ3RoID09PSAwKSB7CiAgY29uc29sZS5lcnJvcign57y65bCR5Y+C5pWw5oiWIEdIX1RPS0VOJyk7CiAgcHJvY2Vzcy5leGl0KDEpOwp9Cgpjb25zdCBBUEkgPSBgaHR0cHM6Ly9hcGkuZ2l0aHViLmNvbS9yZXBvcy8ke1JFUE99YDsKY29uc3QgSCA9IHsKICBBdXRob3JpemF0aW9uOiBgdG9rZW4gJHtUT0tFTn1gLAogIEFjY2VwdDogJ2FwcGxpY2F0aW9uL3ZuZC5naXRodWIranNvbicsCiAgJ0NvbnRlbnQtVHlwZSc6ICdhcHBsaWNhdGlvbi9qc29uJywKICAnVXNlci1BZ2VudCc6ICdndGwtZGVwbG95JywKfTsKCmFzeW5jIGZ1bmN0aW9uIGdoKG1ldGhvZCwgdXJsLCBib2R5KSB7CiAgY29uc3QgciA9IGF3YWl0IGZldGNoKHVybCwgeyBtZXRob2QsIGhlYWRlcnM6IEgsIGJvZHk6IGJvZHkgPyBKU09OLnN0cmluZ2lmeShib2R5KSA6IHVuZGVmaW5lZCB9KTsKICBjb25zdCB0ID0gYXdhaXQgci50ZXh0KCk7CiAgaWYgKCFyLm9rKSB0aHJvdyBuZXcgRXJyb3IoYCR7bWV0aG9kfSAke3VybH0gLT4gJHtyLnN0YXR1c30gJHt0LnNsaWNlKDAsIDMwMCl9YCk7CiAgcmV0dXJuIHQgPyBKU09OLnBhcnNlKHQpIDogbnVsbDsKfQoKY29uc3QgcmVmID0gYXdhaXQgZ2goJ0dFVCcsIGAke0FQSX0vZ2l0L3JlZi9oZWFkcy8ke2JyYW5jaH1gKTsKY29uc3QgcGFyZW50U2hhID0gcmVmLm9iamVjdC5zaGE7CmNvbnN0IHBhcmVudCA9IGF3YWl0IGdoKCdHRVQnLCBgJHtBUEl9L2dpdC9jb21taXRzLyR7cGFyZW50U2hhfWApOwoKY29uc3QgdHJlZSA9IGZpbGVzLm1hcCgoc3BlYykgPT4gewogIC8vIOaUr+aMgSAi5pys5Zyw6Lev5b6EOuS7k+W6k+i3r+W+hCIg55qE5pig5bCE77yI5aaCIGRpc3QvaW5kZXguaHRtbDppbmRleC5odG1s77yJCiAgY29uc3QgaWR4ID0gc3BlYy5sYXN0SW5kZXhPZignOicpOwogIGNvbnN0IFtsb2NhbCwgcmVtb3RlXSA9IGlkeCA+IDAgPyBbc3BlYy5zbGljZSgwLCBpZHgpLCBzcGVjLnNsaWNlKGlkeCArIDEpXSA6IFtzcGVjLCBzcGVjXTsKICBjb25zdCBjb250ZW50ID0gZnMucmVhZEZpbGVTeW5jKHBhdGgucmVzb2x2ZShsb2NhbCkpLnRvU3RyaW5nKCdiYXNlNjQnKTsKICByZXR1cm4gewogICAgcGF0aDogcmVtb3RlLnNwbGl0KHBhdGguc2VwKS5qb2luKCcvJyksCiAgICBtb2RlOiAnMTAwNjQ0JywKICAgIHR5cGU6ICdibG9iJywKICAgIGNvbnRlbnQsCiAgfTsKfSk7Cgpjb25zdCBuZXdUcmVlID0gYXdhaXQgZ2goJ1BPU1QnLCBgJHtBUEl9L2dpdC90cmVlc2AsIHsgYmFzZV90cmVlOiBwYXJlbnQudHJlZS5zaGEsIHRyZWUgfSk7CmNvbnN0IGNvbW1pdCA9IGF3YWl0IGdoKCdQT1NUJywgYCR7QVBJfS9naXQvY29tbWl0c2AsIHsKICBtZXNzYWdlOiBgZGVwbG95OiAke25ldyBEYXRlKCkudG9JU09TdHJpbmcoKS5zbGljZSgwLCAxNikucmVwbGFjZSgnVCcsICcgJyl9IOabtOaWsCAke2ZpbGVzLmxlbmd0aH0g5Liq5paH5Lu2YCwKICB0cmVlOiBuZXdUcmVlLnNoYSwKICBwYXJlbnRzOiBbcGFyZW50U2hhXSwKfSk7CmF3YWl0IGdoKCdQQVRDSCcsIGAke0FQSX0vZ2l0L3JlZnMvaGVhZHMvJHticmFuY2h9YCwgeyBzaGE6IGNvbW1pdC5zaGEgfSk7CmNvbnNvbGUubG9nKGDinJMgJHticmFuY2h9IOKGkiAke2NvbW1pdC5zaGEuc2xpY2UoMCwgNyl977yIJHtmaWxlcy5sZW5ndGh9IOS4quaWh+S7tu+8iWApOwo=
+// 当 git push 被网络阻断时，用 GitHub Git Data API 提交指定文件
+// 用法：node scripts/api-commit.mjs <branch> <localPath:repoPath> [more...]
+// 注意：Tree API 的 content 字段要原始 UTF-8 文本，二进制/任意内容必须先建 blob。
+import fs from 'node:fs';
+import path from 'node:path';
+
+const TOKEN = process.env.GH_TOKEN;
+const REPO = 'x13502239474-oss/game-theory-lab';
+const [branch, ...specs] = process.argv.slice(2);
+if (!TOKEN || !branch || specs.length === 0) {
+  console.error('缺少参数或 GH_TOKEN');
+  process.exit(1);
+}
+
+const API = `https://api.github.com/repos/${REPO}`;
+const H = {
+  Authorization: `token ${TOKEN}`,
+  Accept: 'application/vnd.github+json',
+  'Content-Type': 'application/json',
+  'User-Agent': 'gtl-deploy',
+};
+
+async function gh(method, url, body) {
+  const r = await fetch(url, { method, headers: H, body: body ? JSON.stringify(body) : undefined });
+  const t = await r.text();
+  if (!r.ok) throw new Error(`${method} ${url} -> ${r.status} ${t.slice(0, 300)}`);
+  return t ? JSON.parse(t) : null;
+}
+
+const ref = await gh('GET', `${API}/git/ref/heads/${branch}`);
+const parentSha = ref.object.sha;
+const parent = await gh('GET', `${API}/git/commits/${parentSha}`);
+
+const tree = [];
+for (const spec of specs) {
+  const idx = spec.lastIndexOf(':');
+  const [local, remote] = idx > 0 ? [spec.slice(0, idx), spec.slice(idx + 1)] : [spec, spec];
+  const buf = fs.readFileSync(path.resolve(local));
+  // 先建 blob（base64 编码声明），再引用其 sha —— 避免把 base64 文本写进文件
+  const blob = await gh('POST', `${API}/git/blobs`, {
+    content: buf.toString('base64'),
+    encoding: 'base64',
+  });
+  tree.push({ path: remote.split(path.sep).join('/'), mode: '100644', type: 'blob', sha: blob.sha });
+}
+
+const newTree = await gh('POST', `${API}/git/trees`, { base_tree: parent.tree.sha, tree });
+const commit = await gh('POST', `${API}/git/commits`, {
+  message: `deploy: ${new Date().toISOString().slice(0, 16).replace('T', ' ')} 更新 ${tree.length} 个文件`,
+  tree: newTree.sha,
+  parents: [parentSha],
+});
+await gh('PATCH', `${API}/git/refs/heads/${branch}`, { sha: commit.sha });
+console.log(`✓ ${branch} → ${commit.sha.slice(0, 7)}（${tree.length} 个文件）`);
