@@ -61,6 +61,12 @@ const ROUTES = ALL
   ['案例-小岗村', '#/cases/c-xiaogang'],
   ['案例-相亲', '#/cases/c-dating'],
   ['案例-家长群', '#/cases/c-parenting'],
+  ['案例-二手车', '#/cases/c-lemon'],
+  ['案例-古巴', '#/cases/c-cuba'],
+  ['案例-WTO', '#/cases/c-wto'],
+  ['案例-频谱', '#/cases/c-fcc'],
+  ['案例-脱欧', '#/cases/c-brexit'],
+  ['案例-瑞士', '#/cases/c-swiss'],
 ];
 
 try {
