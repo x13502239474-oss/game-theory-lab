@@ -1,220 +1,280 @@
-import { Link } from 'react-router-dom';
-import { useStore, todayKey } from '../store/store';
-import { ALL_LESSONS, STAGE_MAP, TOTAL_MINUTES } from '../data/curriculum';
-import { CASES } from '../data/cases';
-import { dailyGameOf } from '../data/daily';
-import { fmtDateCN, fmtMinutes } from '../lib/date';
-import { Ring, SectionHead, Bar } from '../components/ui';
-import { inline } from '../lib/prose';
+import { useEffect, useMemo } from 'react'
+import { Link } from 'react-router-dom'
+import { lessons, stages, totalMinutes, totalQuestions, stageLessons } from '../content'
+import { cases } from '../content/cases'
+import { useStore } from '../lib/store'
+import { dayKey, prettyDate, secondsLabel, shiftDay } from '../lib/time'
+import { IconArrow, IconCheck } from '../components/Icons'
+import { ProgressBar, Ring } from '../components/ui'
 
 export default function Home() {
-  const { state, stats, setDaily } = useStore();
-  const key = todayKey();
-  const game = dailyGameOf(key);
-  const rec = state.daily[key] ?? {};
+  const { state, setTasks } = useStore()
+  const today = dayKey()
 
-  const current = ALL_LESSONS.find((l) => !state.lessons[l.id]?.done) ?? ALL_LESSONS[ALL_LESSONS.length - 1];
-  const idx = ALL_LESSONS.findIndex((l) => l.id === current.id);
-  const next = ALL_LESSONS[Math.min(idx + 1, ALL_LESSONS.length - 1)];
-  const stage = STAGE_MAP[current.stage];
-  const doneInStage = stage.lessons.filter((l) => state.lessons[l.id]?.done).length;
+  const done = Object.keys(state.completed).length
+  const pct = Math.round((done / lessons.length) * 100)
+  const next = lessons.find((l) => !state.completed[l.id]) || lessons[lessons.length - 1]
 
-  // 今日案例：按日期在案例库里轮换
-  const dayIdx = Number(key.replace(/-/g, '')) % CASES.length;
-  const todayCase = CASES[dayIdx];
+  const secondsToday = state.secondsByDay[today] || 0
+  const weekSeconds = useMemo(
+    () =>
+      Array.from({ length: 7 }, (_, i) => state.secondsByDay[shiftDay(today, -i)] || 0).reduce((a, b) => a + b, 0),
+    [state.secondsByDay, today],
+  )
+  const wrongCount = Object.keys(state.attempts).length
 
-  const pct = stats.doneCount / ALL_LESSONS.length;
-  const stagePct = doneInStage / stage.lessons.length;
+  const reviewList = useMemo(
+    () =>
+      lessons
+        .filter((l) => state.completed[l.id] && Date.now() - state.completed[l.id] > 3 * 86400000)
+        .slice(0, 2),
+    [state.completed],
+  )
+
+  useEffect(() => {
+    if (state.taskDay === today && state.tasks.length === 3) return
+    const learnedToday = Object.values(state.completed).some((t) => dayKey(new Date(t)) === today)
+    const quizToday = Object.values(state.quizPassed).some((q) => dayKey(new Date(q.at)) === today)
+    setTasks([
+      {
+        id: 'lesson',
+        label: done === lessons.length ? '回看一门已学课程' : `学习「${next.title}」`,
+        kind: 'lesson',
+        done: learnedToday,
+      },
+      { id: 'quiz', label: '完成一组课后练习（≥60%）', kind: 'quiz', done: quizToday },
+      { id: 'review', label: '重做 1 道错题', kind: 'review', done: false },
+    ])
+  }, [today, state.taskDay, state.tasks.length, state.completed, state.quizPassed, setTasks, next.title, done])
+
+  const taskHref = (kind: string) => (kind === 'review' ? '/wrong' : `/lesson/${next.id}${kind === 'quiz' ? '#quiz' : ''}`)
 
   return (
-    <div className="page-wrap">
-      {/* 报头 */}
-      <header className="rise">
-        <div className="flex items-start justify-between">
-          <div>
-            <div className="label-copper mb-1">GAME THEORY LAB</div>
-            <h1 className="masthead text-[26px] leading-[1.15] text-ink">
-              博弈论
-              <br />
-              研究所
-            </h1>
-          </div>
-          <div className="text-right">
-            <div className="label">{fmtDateCN()}</div>
-            <div className="mt-1.5 flex items-center justify-end gap-1.5">
-              <span className="h-1 w-1 rounded-full bg-copper" />
-              <span className="num text-[13px] text-ink">{stats.streak}</span>
-              <span className="text-[10.5px] text-muted">天连续学习</span>
-            </div>
-          </div>
+    <div className="shell pb-14 pt-7 sm:pt-10">
+      <header>
+        <div className="flex items-center justify-between">
+          <div className="eyebrow">Game Theory · Vol. 01</div>
+          <div className="meta hidden sm:block">{prettyDate()}</div>
         </div>
-        <div className="mt-4 rule" />
+        <h1 className="mt-3 text-[30px] leading-[1.15] tracking-tight text-ink sm:text-[42px]">博弈论研究所</h1>
+        <p className="mt-3 max-w-[42rem] text-[13.5px] leading-[1.95] text-muted sm:text-[14px]">
+          从「同时行动」到「不完全信息」，从收益矩阵到贝叶斯博弈。每一讲都给出完整矩阵、逐步推导、两个现实案例与自动批改的练习。
+          目标不是记住名词，而是拿到一个陌生场景时，能自己建模、求解、解释。
+        </p>
+        <div className="mt-5 flex flex-wrap items-center gap-x-7 gap-y-2 border-y border-line py-3">
+          <span className="meta">{lessons.length} 讲</span>
+          <span className="meta">{stages.length} 个部分</span>
+          <span className="meta">{totalQuestions} 道题</span>
+          <span className="meta">{cases.length} 个案例</span>
+          <span className="meta">约 {Math.round(totalMinutes / 60)} 小时</span>
+        </div>
       </header>
 
-      {/* 当前阶段 */}
-      <section className="mt-5">
-        <div className="flex items-baseline justify-between">
-          <span className="label">当前阶段</span>
-          <span className="text-[10.5px] text-muted">
-            {doneInStage}/{stage.lessons.length} 课
-          </span>
-        </div>
-        <div className="mt-2 flex items-end justify-between gap-4">
-          <div className="min-w-0">
-            <h2 className="masthead text-[21px] leading-snug text-ink">
-              <span className="num mr-2 text-[13px] text-copper">0{stage.no}</span>
-              {stage.title}
-            </h2>
-            <p className="mt-1.5 max-w-[300px] text-[11.5px] leading-relaxed text-muted">{stage.summary}</p>
-          </div>
-          <div className="w-16 shrink-0">
-            <div className="text-right text-[10px] text-muted">{Math.round(stagePct * 100)}%</div>
-            <div className="mt-1.5">
-              <Bar value={stagePct} />
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* 学习进度 */}
-      <section className="mt-7">
-        <SectionHead index="01" title="学习进度" right={<Link to="/courses" className="text-[10.5px] text-copper">全部课程 →</Link>} />
-        <div className="card flex items-center gap-5 p-4">
-          <Ring value={pct} label={`${Math.round(pct * 100)}%`} sub="完成率" size={86} />
-          <div className="grid flex-1 grid-cols-2 gap-y-3.5">
-            <div>
-              <div className="num text-[16px] leading-none text-ink">
-                {stats.doneCount}
-                <span className="text-[10px] text-muted"> / {ALL_LESSONS.length}</span>
-              </div>
-              <div className="mt-1 text-[10px] tracking-[0.08em] text-muted">已完成章节</div>
-            </div>
-            <div>
-              <div className="num text-[16px] leading-none text-ink">
-                {stats.doneMinutes}
-                <span className="text-[10px] text-muted"> 分</span>
-              </div>
-              <div className="mt-1 text-[10px] tracking-[0.08em] text-muted">累计学习时长</div>
-            </div>
-            <div>
-              <div className="num text-[16px] leading-none text-ink">L{String(current.no).padStart(2, '0')}</div>
-              <div className="mt-1 text-[10px] tracking-[0.08em] text-muted">当前课程</div>
-            </div>
-            <div>
-              <div className="num text-[16px] leading-none text-ink">L{String(next.no).padStart(2, '0')}</div>
-              <div className="mt-1 text-[10px] tracking-[0.08em] text-muted">下一节课程</div>
-            </div>
-          </div>
-        </div>
-        <p className="mt-2 text-[10.5px] text-muted">
-          全课程 {ALL_LESSONS.length} 课 · 约 {Math.round(TOTAL_MINUTES / 60)} 小时 · 今日已学 {fmtMinutes(stats.todaySeconds)}
-        </p>
-      </section>
-
-      {/* 今日学习 */}
-      <section className="mt-7">
-        <SectionHead index="02" title="今日学习" sub="每天一个知识点，一个案例，几道题。" />
-        <div className="card">
-          <div className="border-b border-line px-4 py-3.5">
+      <div className="mt-8 grid gap-10 lg:grid-cols-[1fr_306px] lg:gap-12">
+        <div className="min-w-0 space-y-10">
+          <section className="card p-5 sm:p-6">
             <div className="flex items-baseline justify-between">
-              <span className="label">今日知识点</span>
-              <span className="text-[10px] text-muted">{current.minutes} 分钟</span>
+              <div>
+                <div className="eyebrow">Today</div>
+                <h2 className="mt-1 text-[19px] tracking-tight">今日任务</h2>
+              </div>
+              <div className="text-right">
+                <div className="tabnum font-serif text-[20px] leading-none text-ink">{secondsLabel(secondsToday)}</div>
+                <div className="mt-1 meta">今日学习</div>
+              </div>
             </div>
-            <h3 className="mt-1.5 text-[16px] font-semibold leading-snug text-ink">
-              L{String(current.no).padStart(2, '0')} · {current.title}
-            </h3>
-            <p className="mt-1 text-[11.5px] leading-relaxed text-muted">{current.subtitle}</p>
-          </div>
-          <div className="grid grid-cols-2 divide-x divide-line border-b border-line">
-            <Link to={`/cases/${todayCase.id}`} className="tap block px-4 py-3">
-              <div className="label">今日案例</div>
-              <div className="mt-1 text-[12px] leading-snug text-ink">{todayCase.title}</div>
-              <div className="mt-1 text-[10px] text-muted">{todayCase.domain} · {todayCase.year}</div>
-            </Link>
-            <Link to={`/lesson/${current.id}`} className="tap block px-4 py-3">
-              <div className="label">今日练习</div>
-              <div className="mt-1 text-[12px] leading-snug text-ink">{current.quiz.length} 道题 · 跟着课程</div>
-              <div className="mt-1 text-[10px] text-muted">提交后立即判分</div>
-            </Link>
-          </div>
-          <Link
-            to={`/lesson/${current.id}`}
-            className="flex items-center justify-between px-4 py-3 text-[12.5px] font-medium text-ink transition-colors hover:bg-tint"
-          >
-            <span>一键继续学习</span>
-            <span className="text-copper">→</span>
-          </Link>
-        </div>
-      </section>
-
-      {/* 每日博弈 */}
-      <section className="mt-7">
-        <SectionHead index="03" title="每日博弈" sub="先凭直觉判断，再看理论分析。" />
-        <div className="card p-4">
-          <div className="label-copper mb-2">DAILY GAME · {key}</div>
-          <h3 className="text-[15.5px] font-semibold leading-snug text-ink">{game.question}</h3>
-          <p className="mt-1.5 text-[12px] leading-relaxed text-muted">{game.scene}</p>
-
-          {!rec.revealed ? (
-            <div className="mt-3 space-y-2">
-              {game.options.map((o, i) => (
-                <button
-                  key={i}
-                  onClick={() => setDaily(key, { predicted: i, revealed: true })}
-                  className="flex w-full items-start gap-2.5 border border-line px-3 py-2.5 text-left text-[12.5px] leading-relaxed text-ink-2 transition-colors hover:border-line-2 hover:bg-[#FCFBF8]"
-                >
-                  <span className="num mt-[1px] shrink-0 text-[10px] text-muted">{String.fromCharCode(65 + i)}</span>
-                  <span>{o}</span>
-                </button>
+            <div className="mt-4 divide-y divide-linesoft border-t border-linesoft">
+              {state.tasks.map((t) => (
+                <Link key={t.id} to={taskHref(t.kind)} className="group flex items-center gap-3 py-3">
+                  <span
+                    className={`flex h-[18px] w-[18px] shrink-0 items-center justify-center border ${
+                      t.done ? 'border-moss bg-moss text-paper' : 'border-line text-transparent'
+                    }`}
+                  >
+                    <IconCheck className="h-3 w-3" />
+                  </span>
+                  <span className={`flex-1 text-[13.5px] ${t.done ? 'text-muted line-through' : 'text-ink'}`}>
+                    {t.label}
+                  </span>
+                  <IconArrow className="h-4 w-4 text-steel transition-transform group-hover:translate-x-0.5" />
+                </Link>
               ))}
             </div>
-          ) : (
-            <div className="fade mt-3">
-              <div className="border-l-2 border-copper bg-[#FAF3EA] px-3 py-2 text-[12px] text-[#7A5326]">
-                你的判断：{String.fromCharCode(65 + (rec.predicted ?? 0))} · {game.options[rec.predicted ?? 0]}
+          </section>
+
+          <section>
+            <div className="mb-3 flex items-baseline justify-between">
+              <div className="eyebrow">Continue</div>
+              <span className="meta">
+                第 {next.order} / {lessons.length} 讲
+              </span>
+            </div>
+            <Link
+              to={`/lesson/${next.id}`}
+              className="group block border border-line bg-surface p-5 transition-colors hover:border-navy sm:p-6"
+            >
+              <div className="meta">
+                {stages.find((s) => s.id === next.stage)?.title} · {next.chapter}
               </div>
-              <div className="mt-2.5 border border-line bg-[#FCFBF7] px-3.5 py-3">
-                <div className="label mb-1.5">理论分析</div>
-                <p className="text-[12.5px] leading-[1.85] text-ink-2">{inline(game.analysis, 'ga')}</p>
-                <p className="mt-2 text-[11.5px] text-copper">{inline(game.verdict, 'gv')}</p>
+              <h3 className="mt-2 text-[24px] leading-tight tracking-tight text-ink sm:text-[27px]">{next.title}</h3>
+              <p className="mt-2 text-[13px] leading-relaxed text-muted">{next.subtitle}</p>
+              <div className="mt-5 flex items-center justify-between border-t border-linesoft pt-3">
+                <span className="meta">
+                  {next.minutes} 分钟 · {next.quiz.length} 道练习
+                </span>
+                <span className="inline-flex items-center gap-2 text-[12px] text-navy">
+                  开始阅读
+                  <IconArrow className="h-4 w-4 transition-transform group-hover:translate-x-1" />
+                </span>
               </div>
-              <div className="mt-3 flex items-center justify-between">
-                <Link to={`/lesson/${game.lessonId}`} className="text-[11.5px] text-copper">
-                  相关课程 →
+            </Link>
+          </section>
+
+          <section>
+            <div className="mb-3 flex items-baseline justify-between">
+              <div className="eyebrow">Curriculum</div>
+              <Link to="/course" className="meta hover:text-ink">
+                全部课程 →
+              </Link>
+            </div>
+            <div className="divide-y divide-line border-y border-line">
+              {stages.map((s) => {
+                const list = stageLessons(s.id)
+                const finished = list.filter((l) => state.completed[l.id]).length
+                const p = list.length ? Math.round((finished / list.length) * 100) : 0
+                return (
+                  <Link
+                    key={s.id}
+                    to={`/course#stage-${s.id}`}
+                    className="group grid grid-cols-[34px_1fr] gap-3 py-4 sm:grid-cols-[40px_1fr_150px]"
+                  >
+                    <div className="font-mono text-[11px] leading-6 text-copper">{String(s.id).padStart(2, '0')}</div>
+                    <div className="min-w-0">
+                      <div className="flex flex-wrap items-baseline gap-x-2">
+                        <span className="text-[15px] text-ink group-hover:text-navy">{s.title}</span>
+                        <span className="font-mono text-[9px] uppercase tracking-[0.14em] text-muted">{s.en}</span>
+                      </div>
+                      <p className="mt-1 line-clamp-2 text-[12px] leading-relaxed text-muted">{s.question}</p>
+                      <div className="mt-2 sm:hidden">
+                        <ProgressBar value={p} />
+                      </div>
+                    </div>
+                    <div className="hidden text-right sm:block">
+                      <div className="meta">{list.length} 讲</div>
+                      <div className="mt-2">
+                        <ProgressBar value={p} />
+                      </div>
+                      <div className="mt-1.5 tabnum text-[11px] text-muted">
+                        {finished}/{list.length}
+                      </div>
+                    </div>
+                  </Link>
+                )
+              })}
+            </div>
+          </section>
+
+          <section>
+            <div className="mb-3 flex items-baseline justify-between">
+              <div className="eyebrow">Case Library</div>
+              <Link to="/cases" className="meta hover:text-ink">
+                全部案例 →
+              </Link>
+            </div>
+            <Link to={`/cases/${cases[0].id}`} className="group flex items-start gap-4 border border-line bg-[#FBF7EE] p-5">
+              <div className="hidden font-serif text-[44px] leading-none text-copper2 sm:block">§</div>
+              <div>
+                <div className="meta">第 {cases[0].stage} 部分 · {cases[0].lessonTitle}</div>
+                <h3 className="mt-1.5 text-[17px] leading-snug text-ink">{cases[0].title}</h3>
+                <p className="mt-2 line-clamp-2 text-[12.5px] leading-relaxed text-muted">{cases[0].body}</p>
+                <span className="mt-3 inline-flex items-center gap-1.5 text-[12px] text-navy">
+                  读案例 <IconArrow className="h-4 w-4" />
+                </span>
+              </div>
+            </Link>
+          </section>
+        </div>
+
+        <aside className="space-y-6 lg:border-l lg:border-line lg:pl-8">
+          <div>
+            <div className="eyebrow">Progress</div>
+            <div className="mt-3 flex items-center gap-4">
+              <div className="relative">
+                <Ring value={pct} size={76} stroke={4} />
+                <span className="absolute inset-0 flex items-center justify-center tabnum font-serif text-[18px] text-ink">
+                  {pct}%
+                </span>
+              </div>
+              <div>
+                <div className="tabnum font-serif text-[22px] leading-none text-ink">
+                  {done}
+                  <span className="ml-1 font-sans text-[11px] text-muted">/ {lessons.length}</span>
+                </div>
+                <div className="mt-1 text-[11px] text-muted">已完成课程</div>
+                <Link
+                  to="/course"
+                  className="mt-2 inline-block font-mono text-[9px] uppercase tracking-[0.16em] text-copper hover:underline"
+                >
+                  查看目录
                 </Link>
-                <button onClick={() => setDaily(key, { revealed: false })} className="text-[11px] text-muted underline-offset-2 hover:underline">
-                  收起
-                </button>
+              </div>
+            </div>
+          </div>
+
+          <div className="grid grid-cols-2 gap-x-4 border-t border-line pt-3">
+            <div>
+              <div className="meta">连续学习</div>
+              <div className="tabnum mt-1 font-serif text-[24px] leading-none">
+                {state.streak}
+                <span className="ml-1 font-sans text-[11px] text-muted">天</span>
+              </div>
+            </div>
+            <div>
+              <div className="meta">近 7 天</div>
+              <div className="tabnum mt-1 font-serif text-[24px] leading-none">
+                {Math.round(weekSeconds / 60)}
+                <span className="ml-1 font-sans text-[11px] text-muted">分钟</span>
+              </div>
+            </div>
+            <div className="mt-4">
+              <div className="meta">待复习错题</div>
+              <div className="tabnum mt-1 font-serif text-[24px] leading-none">{wrongCount}</div>
+            </div>
+            <div className="mt-4">
+              <div className="meta">收藏</div>
+              <div className="tabnum mt-1 font-serif text-[24px] leading-none">{state.favorites.length}</div>
+            </div>
+          </div>
+
+          {reviewList.length > 0 && (
+            <div className="border-t border-line pt-4">
+              <div className="eyebrow">Review</div>
+              <p className="mt-1.5 text-[11.5px] leading-relaxed text-muted">这几讲已学过 3 天以上，建议回看：</p>
+              <div className="mt-2 space-y-2">
+                {reviewList.map((l) => (
+                  <Link
+                    key={l.id}
+                    to={`/lesson/${l.id}`}
+                    className="block border-l border-copper/50 pl-2.5 text-[12.5px] text-ink2 hover:text-navy"
+                  >
+                    {l.title}
+                  </Link>
+                ))}
               </div>
             </div>
           )}
-        </div>
-      </section>
 
-      {/* 快捷入口 */}
-      <section className="mt-7">
-        <SectionHead index="04" title="进入研究所" />
-        <div className="grid grid-cols-3 gap-2.5">
-          {[
-            { to: '/lab', t: '实验室', s: '6 个实验', d: '亲手操作' },
-            { to: '/cases', t: '案例库', s: `${CASES.length} 个案例`, d: '九个维度' },
-            { to: '/graph', t: '知识图谱', s: '29 个概念', d: '看关系' },
-          ].map((x) => (
-            <Link key={x.to} to={x.to} className="card card-hover tap p-3">
-              <div className="text-[12.5px] font-medium text-ink">{x.t}</div>
-              <div className="mt-3 num text-[10px] text-muted">{x.s}</div>
-              <div className="mt-[3px] text-[10px] text-line-2">{x.d}</div>
+          <div className="border-t border-line pt-4">
+            <div className="eyebrow">Laboratory</div>
+            <p className="mt-1.5 text-[11.5px] leading-[1.85] text-muted">
+              三个可调参实验：收益矩阵求解器、重复博弈与贴现、贝叶斯信念更新。全部与讲义共用同一套公式。
+            </p>
+            <Link to="/labs" className="mt-3 inline-flex items-center gap-2 text-[12px] text-navy">
+              进入实验室 <IconArrow className="h-4 w-4" />
             </Link>
-          ))}
-        </div>
-      </section>
-
-      <footer className="mt-9 border-t border-line pt-4">
-        <p className="text-[10px] leading-relaxed text-muted">
-          课程为自主编排，参考张维迎《博弈与社会》《博弈论与信息经济学》的知识框架与问题意识，
-          不引用原书章节、页码或原文。所有数学推导在站内可复核。
-        </p>
-      </footer>
+          </div>
+        </aside>
+      </div>
     </div>
-  );
+  )
 }

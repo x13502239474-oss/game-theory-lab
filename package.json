@@ -1,34 +1,33 @@
 {
-  "name": "2026-11-19-01-41-38",
+  "name": "gametheory-lab",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
-    "lint": "oxlint",
     "preview": "vite preview",
-    "check": "esbuild scripts/validate.ts --bundle --format=esm --platform=node --outfile=scripts/.validate.mjs --log-level=error && node scripts/.validate.mjs",
-    "audit": "esbuild scripts/audit-math.ts --bundle --format=esm --platform=node --outfile=scripts/.audit.mjs --log-level=error && node scripts/.audit.mjs"
+    "verify": "node scripts/verify.mjs",
+    "qa": "node scripts/qa.mjs",
+    "gate": "node scripts/gate.mjs",
+    "deploy": "npm run build && node scripts/deploy.mjs pages"
   },
   "dependencies": {
-    "katex": "^0.19.1",
-    "react": "^19.3.1",
-    "react-dom": "^19.3.1",
-    "react-router-dom": "^7.18.6"
+    "katex": "^0.16.11",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.26.2",
+    "recharts": "^2.12.7"
   },
   "devDependencies": {
-    "@types/katex": "^0.16.8",
-    "@types/node": "^24.19.2",
-    "@types/react": "^19.3.0",
-    "@types/react-dom": "^19.3.0",
-    "@vitejs/plugin-react": "^6.1.2",
-    "autoprefixer": "^10.6.2",
-    "esbuild": "^0.28.2",
-    "oxlint": "^1.90.0",
-    "postcss": "^8.5.33",
-    "tailwindcss": "^3.4.17",
-    "typescript": "~7.0.2",
-    "vite": "^8.3.6"
+    "@types/react": "^18.3.5",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.45",
+    "puppeteer-core": "^25.18.1",
+    "tailwindcss": "^3.4.10",
+    "typescript": "^5.5.4",
+    "vite": "^5.4.3"
   }
 }
